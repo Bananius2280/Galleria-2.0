@@ -1,0 +1,70 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "display": false,
+        "dismissible": true,
+        "text_color": "#fbcf00",
+        "bg_color": "#232734",
+        "text": "Free shipping over $50",
+        "url": ""
+      }
+    },
+    "main-header": {
+      "type": "main-header",
+      "blocks": {
+        "b0aab0cc-82b8-43b0-8b92-a210d4b05387": {
+          "type": "menu",
+          "settings": {
+            "menu": "main-menu"
+          }
+        },
+        "e5258922-b6e6-4a58-9154-495e14b31088": {
+          "type": "megamenu",
+          "settings": {
+            "menu": "",
+            "text": "Shop",
+            "link": "",
+            "first_image_show": true,
+            "first_image_url": "",
+            "first_image_heading": "Image heading",
+            "first_image_subheading": "Image subheading",
+            "second_image_show": true,
+            "second_image_url": "",
+            "second_image_heading": "Image heading",
+            "second_image_subheading": "Image subheading"
+          }
+        }
+      },
+      "block_order": [
+        "b0aab0cc-82b8-43b0-8b92-a210d4b05387",
+        "e5258922-b6e6-4a58-9154-495e14b31088"
+      ],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/SparkleLogoWhiteGold_V2_1_19013070-55d0-4101-99ac-53fd9ca11227.png",
+        "logo_width": 130,
+        "bg_color": "#1a1b18",
+        "text_color": "#ffffff",
+        "show_icons_text": true,
+        "enable_sticky_header": true,
+        "text_size": "md",
+        "search_type": "popup",
+        "color_dropdown_bg": "#ffffff",
+        "color_dropdown_text": "#1a1b18",
+        "enable_overlap": true,
+        "overlap_users": "all",
+        "overlap_text_color": "#ffffff",
+        "cart_counter_display": "counter",
+        "cart_counter_bg_color": "#dc3545",
+        "cart_counter_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "main-header"
+  ]
+}
