@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="{{ 'rte.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'rte.css' | asset_url | stylesheet_tag }}</noscript>
-
+<div class="#container">
+  {%- render 'breadcrumbs' -%}
+</div>
 {%- capture Content -%}
   <div class="#rte @text-size:{{ section.settings.text_size }} @width:{{ section.settings.content_width }} {% unless section.settings.text_aling == 'default' %}text-{{ section.settings.text_align }}{% endunless %}">
     {{ collection.description }}
