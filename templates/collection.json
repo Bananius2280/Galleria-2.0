@@ -117,7 +117,7 @@
         "title": "FAQ",
         "subtitle": "",
         "width": "narrow",
-        "color_scheme": "default",
+        "color_scheme": "alt",
         "highlight_active": true,
         "text_size": "md"
       }
