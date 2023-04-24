@@ -1,0 +1,133 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "text_size": "xl",
+        "show_collection_image": true,
+        "height": "medium",
+        "overlay": 20,
+        "color_scheme": "accent"
+      }
+    },
+    "60a4a1af-aabc-4817-9488-d62ff8e57940": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pergola-lighting"
+          }
+        },
+        "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "patio-lighting"
+          }
+        },
+        "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-2": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "gazebo-lighting"
+          }
+        },
+        "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "solar-outdoor-garden-lighting"
+          }
+        },
+        "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "festoon-lighting"
+          }
+        },
+        "0825f806-e475-4de5-a53a-204c88ffd9bc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "garden-fairy-lights"
+          }
+        },
+        "dc682780-de29-468f-b7b4-dd7fb3489971": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "outdoor-lanterns"
+          }
+        }
+      },
+      "block_order": [
+        "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-0",
+        "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-1",
+        "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-2",
+        "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-3",
+        "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-4",
+        "0825f806-e475-4de5-a53a-204c88ffd9bc",
+        "dc682780-de29-468f-b7b4-dd7fb3489971"
+      ],
+      "settings": {
+        "title": "Outdoor Collections",
+        "subtitle": "",
+        "color_scheme": "invert",
+        "columns": 6,
+        "gutter": "md",
+        "text_align": "center",
+        "image_size": "circle",
+        "hover_zoom": true,
+        "swipe_on_mobile": true,
+        "show_section_button": false,
+        "section_button": "All Collections"
+      }
+    },
+    "description": {
+      "type": "main-collection-description",
+      "settings": {
+        "text_size": "normal",
+        "text_align": "default",
+        "content_width": "normal",
+        "color_scheme": "default"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "product_columns": 3,
+        "product_rows": 10,
+        "gutter": "md",
+        "show_product_counter": true,
+        "grid_color_scheme": "default",
+        "sidebar_color_scheme": "alt",
+        "enable_sorting": false,
+        "enable_filtering": true,
+        "enable_sticky": true,
+        "collapse_filters": false,
+        "filter_by": "storefront_filters",
+        "tag_filters_heading": "Filter by",
+        "tag_filters": "",
+        "filters_color_swatches": false,
+        "enable_active_filters": true,
+        "active_filters_titles": true,
+        "active_filters_color_swatches": true
+      }
+    },
+    "5618f724-c425-4ece-92ce-7997790ad3be": {
+      "type": "faq",
+      "settings": {
+        "title": "FAQ",
+        "subtitle": "",
+        "width": "narrow",
+        "color_scheme": "default",
+        "highlight_active": true,
+        "text_size": "md"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "60a4a1af-aabc-4817-9488-d62ff8e57940",
+    "description",
+    "product-grid",
+    "5618f724-c425-4ece-92ce-7997790ad3be"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "sections": {
+    "page-header": {
+      "type": "main-page-header",
+      "settings": {
+        "text_size": "lg",
+        "bg_image": "shopify:\/\/shop_images\/SolarLantern_9.jpg",
+        "height": "medium",
+        "overlay": 55,
+        "color_scheme": "invert"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "text_size": "normal",
+        "content_width": "normal"
+      }
+    },
+    "c7b14cd4-f041-443d-8390-af1f431725b1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16735564267760__c7b14cd4-f041-443d-8390-af1f431725b1-168175335493aeb8dc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Sparkle"
+          }
+        },
+        "template--16735564267760__c7b14cd4-f041-443d-8390-af1f431725b1-168175335493aeb8dc-1": {
+          "type": "text",
+          "settings": {
+            "text": "Sparkle offers a bespoke collection of pretty lights to bring a warm glow to your space or event anytime of year.\n\nHandpicked with care and love, our collection is a true reflection of our belief that the right lighting can make all the difference in turning your house into a home."
+          }
+        },
+        "template--16735564267760__c7b14cd4-f041-443d-8390-af1f431725b1-168175335493aeb8dc-2": {
+          "type": "buttons",
+          "settings": {
+            "button": "",
+            "button_link": "",
+            "button_style": "default",
+            "button_show_arrow": true,
+            "secondary_button": "",
+            "secondary_button_link": "",
+            "secondary_button_style": "default",
+            "secondary_button_show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16735564267760__c7b14cd4-f041-443d-8390-af1f431725b1-168175335493aeb8dc-0",
+        "template--16735564267760__c7b14cd4-f041-443d-8390-af1f431725b1-168175335493aeb8dc-1",
+        "template--16735564267760__c7b14cd4-f041-443d-8390-af1f431725b1-168175335493aeb8dc-2"
+      ],
+      "settings": {
+        "color_scheme": "invert",
+        "text_align": "center",
+        "text_size": "md"
+      }
+    },
+    "c726491c-8259-41d7-a154-6a3c74581c0e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16735564267760__c726491c-8259-41d7-a154-6a3c74581c0e-168174888298b4bfea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story"
+          }
+        },
+        "template--16735564267760__c726491c-8259-41d7-a154-6a3c74581c0e-168174888298b4bfea-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sparkle was started in 2019 by Thalia, who loves lighting and the difference it can make to a space. Sparkle is a family business that was started from a kitchen table in Buckinghamshire combining Thalia’s sales & marketing background with her husband’s IT and digital skills.<\/p><p>We are so proud of how far Sparkle has come with over 20k followers on social media and a warehouse and distribution center in Brightingsea to offer the best customer experience possible..<\/p><p>Sparkle has also more recently become the face of the mastercard strive programme and the business has been featured in The Sunday Times, The Telegraph and The Observer.<\/p>"
+          }
+        },
+        "template--16735564267760__c726491c-8259-41d7-a154-6a3c74581c0e-168174888298b4bfea-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button": "Find More",
+            "button_link": "",
+            "button_style": "default",
+            "button_show_arrow": true,
+            "secondary_button": "",
+            "secondary_button_link": "",
+            "secondary_button_style": "default",
+            "secondary_button_show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16735564267760__c726491c-8259-41d7-a154-6a3c74581c0e-168174888298b4bfea-0",
+        "template--16735564267760__c726491c-8259-41d7-a154-6a3c74581c0e-168174888298b4bfea-1",
+        "template--16735564267760__c726491c-8259-41d7-a154-6a3c74581c0e-168174888298b4bfea-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Thalia_Shaw_3_of_16.jpg",
+        "image_size": "original",
+        "mobile_image_size": "original",
+        "color_scheme": "invert",
+        "layout": "image_first",
+        "text_size": "md",
+        "text_position": "center-center"
+      }
+    },
+    "0711bda6-68a6-45f6-a3af-e6ea5d82c2b4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16735564267760__0711bda6-68a6-45f6-a3af-e6ea5d82c2b4-168174888298b4bfea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "template--16735564267760__0711bda6-68a6-45f6-a3af-e6ea5d82c2b4-168174888298b4bfea-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stocked products will always be shipped the same or the following day.<\/p><p><strong>All of our products are:<\/strong><\/p><p>✨EU sourced and comply with the relevant EU standards.<\/p><p>✨Include a 60 day return policy.<\/p><p>✨12 month guarantee.<\/p><p>✨Use LED energy efficient bulbs.<\/p><p>✨No blue hues in sight.<\/p>"
+          }
+        },
+        "template--16735564267760__0711bda6-68a6-45f6-a3af-e6ea5d82c2b4-168174888298b4bfea-2": {
+          "type": "buttons",
+          "settings": {
+            "button": "Find More",
+            "button_link": "",
+            "button_style": "default",
+            "button_show_arrow": true,
+            "secondary_button": "",
+            "secondary_button_link": "",
+            "secondary_button_style": "default",
+            "secondary_button_show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16735564267760__0711bda6-68a6-45f6-a3af-e6ea5d82c2b4-168174888298b4bfea-0",
+        "template--16735564267760__0711bda6-68a6-45f6-a3af-e6ea5d82c2b4-168174888298b4bfea-1",
+        "template--16735564267760__0711bda6-68a6-45f6-a3af-e6ea5d82c2b4-168174888298b4bfea-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/confetti-fairy-lights.jpg",
+        "image_size": "original",
+        "mobile_image_size": "original",
+        "color_scheme": "invert",
+        "layout": "text_first",
+        "text_size": "md",
+        "text_position": "center-center"
+      }
+    }
+  },
+  "order": [
+    "page-header",
+    "main",
+    "c7b14cd4-f041-443d-8390-af1f431725b1",
+    "c726491c-8259-41d7-a154-6a3c74581c0e",
+    "0711bda6-68a6-45f6-a3af-e6ea5d82c2b4"
+  ]
+}

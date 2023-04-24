@@ -1,0 +1,52 @@
+<nav class="breadcrumbs-custom page-width{% if template.name == 'collection' %} breadcrumbs-collection{% endif %}" role="navigation" aria-label="breadcrumbs">
+  <a href="{{ routes.root_url }}">Home</a>
+{% if condition %}
+  
+{% endif %}
+  {%- if template.name == 'product' -%}
+
+    {% if product.metafields.custom.breadcrumb_collection != blank %}
+      {%- assign breadcrumb_collection = product.metafields.custom.breadcrumb_collection.value -%}
+      <span class="breadcrumb-delimeter" aria-hidden="true">/</span>
+      {{ breadcrumb_collection.title | link_to: breadcrumb_collection.url }}
+    {% endif %}
+
+    {% if product.metafields.custom.breadcrumb_subcollection != blank %}
+      {%- assign breadcrumb_subcollection = product.metafields.custom.breadcrumb_subcollection.value -%}
+      <span class="breadcrumb-delimeter" aria-hidden="true">/</span>
+      {{ breadcrumb_subcollection.title | link_to: breadcrumb_subcollection.url }}
+    {% endif %}
+
+    {% if product.metafields.custom.breadcrumbs_collection_3_level != blank %}
+      {%- assign breadcrumbs_collection_3_level = product.metafields.custom.breadcrumbs_collection_3_level.value -%}
+      <span class="breadcrumb-delimeter" aria-hidden="true">/</span>
+      {{ breadcrumbs_collection_3_level.title | link_to: breadcrumbs_collection_3_level.url }}
+    {% endif %}
+
+    <span class="breadcrumb-delimeter" aria-hidden="true">/</span>
+    <span>{{ product.title }}</span>
+
+  {%- elsif template.name == 'collection' -%}
+    {%- if collection.metafields.custom.breadcrumbs_collections != blank -%}
+      {%- assign breadcrumb_collections = collection.metafields.custom.breadcrumbs_collections.value -%}
+      {%- for breadcrumb_collection in breadcrumb_collections -%}
+        <span class="breadcrumb-delimeter" aria-hidden="true">/</span>
+        {{ breadcrumb_collection.title | link_to: breadcrumb_collection.url }}
+      {%- endfor -%}
+    {%- endif -%}
+      
+    {%- if collection.handle -%}
+      <span class="breadcrumb-delimeter" aria-hidden="true">/</span>
+      <span>{{ collection.title }}</span>
+    {%- endif -%}
+  {%- endif -%}
+</nav>
+
+<style>
+  .breadcrumbs-custom{padding:4.5rem 2rem 1.5rem;font-size:1.4rem}
+  .breadcrumbs-collection{ padding-left: 0;padding-right: 0; width: min(100%, 1020px);margin: 0 auto;margin-bottom: -4rem;}
+  .breadcrumbs-custom a{color:var(--color-base-text);opacity:.7;text-decoration:none}
+  .breadcrumbs-custom a:hover{color:var(--color-base-text);opacity:1;text-decoration:none}
+  .breadcrumb-delimeter{opacity:.7}
+  @media screen and (max-width:749px){.breadcrumbs-custom{padding:3rem 1.5rem 1.5rem;font-size:1.1rem}}
+</style>

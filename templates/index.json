@@ -1,0 +1,631 @@
+{
+  "sections": {
+    "1637156232245e9667": {
+      "type": "column-slider",
+      "blocks": {
+        "163715623287453a4f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pretty-lights-ideas-for-homes-_-gardens.jpg",
+            "overlay": 0,
+            "heading": "Image banner",
+            "text": "Give customers details about the banner",
+            "link": ""
+          }
+        },
+        "163715623287453a4f-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "overlay": 0,
+            "heading": "Image banner",
+            "text": "Give customers details about the banner",
+            "link": ""
+          }
+        },
+        "163715623287453a4f-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "overlay": 0,
+            "heading": "Image banner",
+            "text": "Give customers details about the banner",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163715623287453a4f-0",
+        "163715623287453a4f-1",
+        "163715623287453a4f-2"
+      ],
+      "settings": {
+        "color_scheme": "invert",
+        "text_align": "center",
+        "text_size": "md"
+      }
+    },
+    "16371563135a329e27": {
+      "type": "collection-list",
+      "blocks": {
+        "1637156313539373b5-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "indoor-lights"
+          }
+        },
+        "1637156313539373b5-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "garden-lighting"
+          }
+        },
+        "1637156313539373b5-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fairy-lights"
+          }
+        },
+        "1637156313539373b5-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "solar-outdoor-garden-lighting"
+          }
+        },
+        "1637156313539373b5-4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "festoon-lighting"
+          }
+        }
+      },
+      "block_order": [
+        "1637156313539373b5-0",
+        "1637156313539373b5-1",
+        "1637156313539373b5-2",
+        "1637156313539373b5-3",
+        "1637156313539373b5-4"
+      ],
+      "settings": {
+        "title": "Our seasonal collections",
+        "subtitle": "Lights to bring a warm glow to your space or event all year",
+        "color_scheme": "invert",
+        "columns": 5,
+        "gutter": "lg",
+        "text_align": "center",
+        "image_size": "circle",
+        "hover_zoom": true,
+        "swipe_on_mobile": true,
+        "show_section_button": false,
+        "section_button": "All Collections"
+      }
+    },
+    "1637156418dc83c366": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Trending Now!",
+        "subtitle": "",
+        "collection": "trending-products",
+        "color_scheme": "default",
+        "columns": 5,
+        "rows": 1,
+        "gutter": "md",
+        "swipe_on_mobile": true,
+        "section_button": ""
+      }
+    },
+    "1637156408ba495eb1": {
+      "type": "image-with-text",
+      "blocks": {
+        "16371564081d2fb4d5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bringing sparkle all year!"
+          }
+        },
+        "16371564081d2fb4d5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Launched in 2019 by me, Thalia, Sparkle is an Independent online store with a hand picked curated collection of pretty sparkly lights to use all year in your home, garden, child's bedroom, wedding or party that will inject a beautiful atmosphere and a warm glow.<\/p>"
+          }
+        },
+        "16371564081d2fb4d5-2": {
+          "type": "buttons",
+          "settings": {
+            "button": "Find More",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style": "default",
+            "button_show_arrow": true,
+            "secondary_button": "",
+            "secondary_button_link": "",
+            "secondary_button_style": "default",
+            "secondary_button_show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "16371564081d2fb4d5-0",
+        "16371564081d2fb4d5-1",
+        "16371564081d2fb4d5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Thalia_Shaw_7_of_16A.jpg",
+        "image_size": "original",
+        "mobile_image_size": "original",
+        "color_scheme": "invert",
+        "layout": "text_first",
+        "text_size": "md",
+        "text_position": "center-center"
+      }
+    },
+    "bf25af37-8a16-43fa-bd27-04bb31f0b36c": {
+      "type": "logo-list",
+      "blocks": {
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-0": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/the-sunday-times-logo.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-2": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/Vector.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/homes-and-gardens-logo_fb136242-d02c-4a86-a949-98988ad2d66c.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-4": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/ideal-home.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-1": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/the-independent.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-5": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/house-beautiful.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-6": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/good-homes-200.webp",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-7": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/real-homes.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-8": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/woman-and-home-logo.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-9": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/english-home-200.webp",
+            "logo_link": ""
+          }
+        },
+        "d744f501-ee65-49ff-8737-b567ded2efd6": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/the-telegraph-logo.png",
+            "logo_link": ""
+          }
+        },
+        "2779f278-ac13-4b50-a77d-75b8404a55fe": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/your-home-magazine-logo_2df79613-fd98-4f79-b7a8-5c00509260c6.png",
+            "logo_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-0",
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-2",
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-3",
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-4",
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-1",
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-5",
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-6",
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-7",
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-8",
+        "template--16735564169456__bf25af37-8a16-43fa-bd27-04bb31f0b36c-1681754577151dc6df-9",
+        "d744f501-ee65-49ff-8737-b567ded2efd6",
+        "2779f278-ac13-4b50-a77d-75b8404a55fe"
+      ],
+      "settings": {
+        "title": "As seen in",
+        "subtitle": "",
+        "color_scheme": "alt",
+        "columns": 4,
+        "logo_max_height": 120,
+        "gutter": "sm",
+        "enable_grayscale_hover": false,
+        "section_button": "",
+        "section_button_link": ""
+      }
+    },
+    "16371564758217e773": {
+      "type": "gallery",
+      "blocks": {
+        "16371564752f7f3825-0": {
+          "type": "gallery_image",
+          "settings": {
+            "span": "6",
+            "image": "shopify:\/\/shop_images\/Tan-cordless-table-lamps.jpg",
+            "image_size": "large",
+            "mobile_image": "shopify:\/\/shop_images\/green-cordless-table-lamps.jpg",
+            "mobile_image_size": "large",
+            "overlay": 50,
+            "title": "Cordless Lights",
+            "subtitle": "<p>Use them inside & out<\/p>",
+            "color_scheme": "invert",
+            "text_position": "center-center",
+            "button": "Shop Now",
+            "button_link": "shopify:\/\/collections\/cordless-lights",
+            "button_style": "default",
+            "button_show_arrow": true,
+            "secondary_button": "",
+            "secondary_button_link": "",
+            "secondary_button_style": "default",
+            "secondary_button_show_arrow": true
+          }
+        },
+        "16371564752f7f3825-1": {
+          "type": "gallery_image",
+          "settings": {
+            "span": "6",
+            "image": "shopify:\/\/shop_images\/solar-garden-lanterns_577e32c0-bef8-4530-91bb-222d45dbfe28.png",
+            "image_size": "large",
+            "mobile_image_size": "large",
+            "overlay": 0,
+            "title": "Solar Garden Lights",
+            "subtitle": "<p>Eco-friendly pretty lights<\/p>",
+            "color_scheme": "invert",
+            "text_position": "center-center",
+            "button": "Shop Now",
+            "button_link": "",
+            "button_style": "default",
+            "button_show_arrow": true,
+            "secondary_button": "",
+            "secondary_button_link": "",
+            "secondary_button_style": "default",
+            "secondary_button_show_arrow": true
+          }
+        },
+        "16371564752f7f3825-2": {
+          "type": "gallery_image",
+          "settings": {
+            "span": "4",
+            "image": "shopify:\/\/shop_images\/copper-standing-star-lights_f85d980e-ae77-4a64-8c75-63f304b87cfb.jpg",
+            "image_size": "large",
+            "mobile_image_size": "large",
+            "overlay": 50,
+            "title": "Wedding Lighting",
+            "subtitle": "<p>To make your day feel special<\/p>",
+            "color_scheme": "invert",
+            "text_position": "center-center",
+            "button": "Shop Now",
+            "button_link": "",
+            "button_style": "default",
+            "button_show_arrow": true,
+            "secondary_button": "",
+            "secondary_button_link": "",
+            "secondary_button_style": "default",
+            "secondary_button_show_arrow": true
+          }
+        },
+        "16371564752f7f3825-3": {
+          "type": "gallery_image",
+          "settings": {
+            "span": "4",
+            "image": "shopify:\/\/shop_images\/boho-hoop-lights_a4257762-1e8d-47fc-b2f6-7e7eded9ac8b.jpg",
+            "image_size": "large",
+            "mobile_image_size": "large",
+            "overlay": 50,
+            "title": "Kid's Bedroom Lights",
+            "subtitle": "<p>Bring a cosy vibe to their space<\/p>",
+            "color_scheme": "invert",
+            "text_position": "center-center",
+            "button": "Shop Now",
+            "button_link": "",
+            "button_style": "default",
+            "button_show_arrow": true,
+            "secondary_button": "",
+            "secondary_button_link": "",
+            "secondary_button_style": "default",
+            "secondary_button_show_arrow": true
+          }
+        },
+        "3361a4ec-7648-47a7-afb5-1d3c67e65b2f": {
+          "type": "gallery_image",
+          "settings": {
+            "span": "4",
+            "image": "shopify:\/\/shop_images\/solar-table-lanterns.jpg",
+            "image_size": "large",
+            "mobile_image_size": "large",
+            "overlay": 0,
+            "title": "Party Lighting",
+            "subtitle": "<p>Bring atmosphere to your special event<\/p>",
+            "color_scheme": "invert",
+            "text_position": "center-center",
+            "button": "Shop Now",
+            "button_link": "shopify:\/\/collections\/party-lighting",
+            "button_style": "default",
+            "button_show_arrow": true,
+            "secondary_button": "",
+            "secondary_button_link": "",
+            "secondary_button_style": "default",
+            "secondary_button_show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "16371564752f7f3825-0",
+        "16371564752f7f3825-1",
+        "16371564752f7f3825-2",
+        "16371564752f7f3825-3",
+        "3361a4ec-7648-47a7-afb5-1d3c67e65b2f"
+      ],
+      "settings": {
+        "gutter": "md",
+        "hover_zoom": false
+      }
+    },
+    "16371565156a529cad": {
+      "type": "testimonials",
+      "blocks": {
+        "16371565151b4a0f95-0": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/exposed-bulb-table-lamp.jpg",
+            "author_name": "Susan",
+            "author_subheading": "Excellent",
+            "text": "\"I absolutely love this lamp, and customer service is one of the best, I would highly recommend this company x\"",
+            "product": ""
+          }
+        },
+        "16371565151b4a0f95-2": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/gemstone-fairy-lights.jpg",
+            "author_name": "Janette",
+            "author_subheading": "Beautiful Gem Fairy Lights",
+            "text": "\"This was my first experience of purchasing from this company and I’m sure it won’t be my last. A quality product which arrived quickly and beautifully packaged.\"",
+            "product": ""
+          }
+        },
+        "16371565151b4a0f95-1": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/confetti-fairy-lights_62df020b-6012-4187-90e2-691c53a1e0f8.jpg",
+            "author_name": "Julie",
+            "author_subheading": "Confetti Lights",
+            "text": "\"Lovely, just as described on the website, the service from Thalia at Sparkle was stellar, totally recommend this lovely site.\"",
+            "product": ""
+          }
+        },
+        "16371565151b4a0f95-3": {
+          "type": "testimonial",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/copper-fairy-lights.jpg",
+            "author_name": "Lee",
+            "author_subheading": "Copper Fairy Lights",
+            "text": "Absolutely love these lights.They really set off my fireplace.Fantastic and fast delivery service would definitely recommend this lovely business.",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "16371565151b4a0f95-0",
+        "16371565151b4a0f95-2",
+        "16371565151b4a0f95-1",
+        "16371565151b4a0f95-3"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "subtitle": "",
+        "color_scheme": "alt",
+        "columns": 4,
+        "gutter": "md",
+        "show_stars": false,
+        "section_button": "",
+        "section_button_link": ""
+      }
+    },
+    "1637156555fba26817": {
+      "type": "newsletter",
+      "blocks": {
+        "16371565554fbd4dac-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "16371565554fbd4dac-1": {
+          "type": "text",
+          "settings": {
+            "text": "Be the first to know about new collections and exclusive offers."
+          }
+        },
+        "16371565554fbd4dac-2": {
+          "type": "newsletter_form",
+          "settings": {
+            "button_show_arrow": true,
+            "button_custom_text": "",
+            "custom_placeholder_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16371565554fbd4dac-0",
+        "16371565554fbd4dac-1",
+        "16371565554fbd4dac-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/solar-table-lanterns.jpg",
+        "image_size": "large",
+        "image_mobile_size": "9x16",
+        "overlay": 20,
+        "text_size": "md",
+        "text_position": "bottom-left",
+        "color_scheme": "default"
+      }
+    },
+    "9da109cd-7d7d-479a-9f2b-3be4b967f114": {
+      "type": "logo-list",
+      "blocks": {
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-2": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/hollyoaks-logo.webp",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-0": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/made-in-chelsea-logo.jpg",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-1": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/The-only-way-is-essex.jpg",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/rise-and-fall.webp",
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-4": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-5": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-6": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-7": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-8": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo_link": ""
+          }
+        },
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-9": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-2",
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-0",
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-1",
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-3",
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-4",
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-5",
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-6",
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-7",
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-8",
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-9"
+      ],
+      "settings": {
+        "title": "As featured on",
+        "subtitle": "",
+        "color_scheme": "default",
+        "columns": 4,
+        "logo_max_height": 165,
+        "gutter": "md",
+        "enable_grayscale_hover": true,
+        "section_button": "",
+        "section_button_link": ""
+      }
+    },
+    "163715652923809d9e": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "Seasonal Blog",
+        "subtitle": "",
+        "blog": "garden-lighting",
+        "color_scheme": "default",
+        "post_limit": 3,
+        "gutter": "sm",
+        "text_align": "center",
+        "show_date": false,
+        "show_author": false,
+        "show_excerpt": false,
+        "image_ratio": "portrait",
+        "hover_zoom": true,
+        "section_button": "Read more"
+      }
+    }
+  },
+  "order": [
+    "1637156232245e9667",
+    "16371563135a329e27",
+    "1637156418dc83c366",
+    "1637156408ba495eb1",
+    "bf25af37-8a16-43fa-bd27-04bb31f0b36c",
+    "16371564758217e773",
+    "16371565156a529cad",
+    "1637156555fba26817",
+    "9da109cd-7d7d-479a-9f2b-3be4b967f114",
+    "163715652923809d9e"
+  ]
+}
