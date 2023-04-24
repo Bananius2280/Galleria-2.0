@@ -2,6 +2,32 @@
 
 {% assign cn = '#faq' %}
 
+{% if product.metafields.custom.faqs != blank or collection.metafields.custom.faqs != blank %}
+{%- liquid 
+    assign faqs = product.metafields.custom.faqs
+    if template.name == 'collection'
+        assign faqs = collection.metafields.custom.faqs
+    endif
+-%}
+
+    {%- capture Content -%}
+        <div class="reveal-animate">
+            <div class="{{ cn }} @text-size:{{ section.settings.text_size }} {% if section.settings.highlight_active %}@active-highlight{% endif %} @width:{{ section.settings.width }}">
+                {% for faq in faqs.value %}
+                    <details class="{{ cn }}-item details-reset" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <summary class="{{ cn }}-item-heading" itemprop="name">
+                            {{ faq.question }}{% render 'icon', name: 'chevron-down'  %}
+                        </summary>
+                        <div class="{{ cn }}-item-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <p itemprop="text">{{ faq.answer }}</p>
+                        </div>
+                    </details>
+                {% endfor %}
+            </div>
+        </div>
+    {%- endcapture -%}
+
+{% comment %} native code
 {%- capture Content -%}
     <div class="reveal-animate">
         <div class="{{ cn }} @text-size:{{ section.settings.text_size }} {% if section.settings.highlight_active %}@active-highlight{% endif %} @width:{{ section.settings.width }}">
@@ -18,16 +44,18 @@
             {% endfor %}
         </div>
     </div>
-{%- endcapture -%}
+{%- endcapture -%} {% endcomment %}
 
-{% render 'section-body',
-  content: Content,
-  spaced: true,
-  container: true,
-  title: section.settings.title,
-  subtitle: section.settings.subtitle,
-  color_scheme: section.settings.color_scheme
-%}
+    {% render 'section-body',
+    content: Content,
+    spaced: true,
+    container: true,
+    title: section.settings.title,
+    subtitle: section.settings.subtitle,
+    color_scheme: section.settings.color_scheme
+    %}
+
+{% endif %}
 
 {% schema %}
     {

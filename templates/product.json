@@ -184,11 +184,23 @@
         "gutter": "md",
         "products_to_show": 5
       }
+    },
+    "dd82d725-5771-4010-984b-edd9080f326b": {
+      "type": "faq",
+      "settings": {
+        "title": "FAQ",
+        "subtitle": "",
+        "width": "narrow",
+        "color_scheme": "default",
+        "highlight_active": true,
+        "text_size": "md"
+      }
     }
   },
   "order": [
     "main",
     "testimonials",
-    "product-recommendations"
+    "product-recommendations",
+    "dd82d725-5771-4010-984b-edd9080f326b"
   ]
 }

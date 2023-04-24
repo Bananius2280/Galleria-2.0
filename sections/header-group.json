@@ -46,13 +46,14 @@
             "text": "OUTDOOR",
             "link": "shopify:\/\/collections\/garden-lighting",
             "first_image_show": true,
-            "first_image_url": "",
-            "first_image_heading": "Image heading",
-            "first_image_subheading": "Image subheading",
+            "first_image": "shopify:\/\/shop_images\/solar-lanterns-in-outdoor-space.jpg",
+            "first_image_url": "shopify:\/\/collections\/solar-outdoor-garden-lighting",
+            "first_image_heading": "Solar Lights",
+            "first_image_subheading": "SHOP HERE",
             "second_image_show": true,
-            "second_image_url": "",
-            "second_image_heading": "Image heading",
-            "second_image_subheading": "Image subheading"
+            "second_image_url": "shopify:\/\/collections\/pergola-lighting",
+            "second_image_heading": "",
+            "second_image_subheading": ""
           }
         },
         "4511f235-da14-43cd-ae2c-cc69faf8f9c6": {
@@ -62,13 +63,15 @@
             "text": "FAIRY & STRING",
             "link": "shopify:\/\/collections\/fairy-lights",
             "first_image_show": true,
-            "first_image_url": "",
-            "first_image_heading": "Image heading",
-            "first_image_subheading": "Image subheading",
+            "first_image": "shopify:\/\/shop_images\/confetti-fairy-lights-along-a-_mantlepiece.jpg",
+            "first_image_url": "shopify:\/\/collections\/plug-in-fairy-lights",
+            "first_image_heading": "Plug In Fairy Lights",
+            "first_image_subheading": "SHOP HERE",
             "second_image_show": true,
-            "second_image_url": "",
-            "second_image_heading": "Image heading",
-            "second_image_subheading": "Image subheading"
+            "second_image": "shopify:\/\/shop_images\/starburst-outdoor-fairy-lights.png",
+            "second_image_url": "shopify:\/\/collections\/garden-fairy-lights",
+            "second_image_heading": "Outdoor Fairy Lights",
+            "second_image_subheading": "Shop here"
           }
         },
         "f8c8b680-5c95-49a7-94f4-944acfb0cd38": {

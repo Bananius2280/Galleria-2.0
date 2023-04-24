@@ -110,12 +110,24 @@
         "active_filters_titles": true,
         "active_filters_color_swatches": true
       }
+    },
+    "5618f724-c425-4ece-92ce-7997790ad3be": {
+      "type": "faq",
+      "settings": {
+        "title": "FAQ",
+        "subtitle": "",
+        "width": "narrow",
+        "color_scheme": "default",
+        "highlight_active": true,
+        "text_size": "md"
+      }
     }
   },
   "order": [
     "banner",
     "60a4a1af-aabc-4817-9488-d62ff8e57940",
     "description",
-    "product-grid"
+    "product-grid",
+    "5618f724-c425-4ece-92ce-7997790ad3be"
   ]
 }
