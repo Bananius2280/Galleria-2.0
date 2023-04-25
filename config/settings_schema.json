@@ -37,10 +37,10 @@
         "label": "Alternate background"
       },
       {
-        "type": "color",
+        "type": "color_background",
         "id": "color_accent",
-        "default": "#d4651f",
-        "label": "Accent"
+        "label": "Accent",
+        "default": "#d4651f"
       },
       {
         "type": "color",
