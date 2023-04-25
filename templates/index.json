@@ -48,49 +48,56 @@
     "16371563135a329e27": {
       "type": "collection-list",
       "blocks": {
-        "1637156313539373b5-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "indoor-lights"
-          }
-        },
         "1637156313539373b5-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "garden-lighting"
           }
         },
-        "1637156313539373b5-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "fairy-lights"
-          }
-        },
-        "1637156313539373b5-3": {
+        "1637156313539373b5-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "solar-outdoor-garden-lighting"
           }
         },
-        "1637156313539373b5-4": {
+        "1637156313539373b5-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "festoon-lighting"
           }
+        },
+        "1637156313539373b5-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "outdoor-lanterns"
+          }
+        },
+        "1637156313539373b5-4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "garden-fairy-lights"
+          }
+        },
+        "41707fd0-7564-4cf1-9bdb-bfc3058ed4df": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "solar-outdoor-stake-lights"
+          }
         }
       },
       "block_order": [
-        "1637156313539373b5-0",
         "1637156313539373b5-1",
+        "1637156313539373b5-0",
         "1637156313539373b5-2",
         "1637156313539373b5-3",
-        "1637156313539373b5-4"
+        "1637156313539373b5-4",
+        "41707fd0-7564-4cf1-9bdb-bfc3058ed4df"
       ],
       "settings": {
-        "title": "Shop our best selling collections",
-        "subtitle": "Lights to bring a warm glow to your space or event all year",
+        "title": "THIS SEASON",
+        "subtitle": "Lights to bring a warm glow to your outdoor space or event",
         "color_scheme": "invert",
-        "columns": 5,
+        "columns": 6,
         "gutter": "lg",
         "text_align": "center",
         "image_size": "circle",
@@ -372,12 +379,12 @@
             "image_size": "large",
             "mobile_image_size": "large",
             "overlay": 0,
-            "title": "Party Lighting",
+            "title": "Outdoor Party Lighting",
             "subtitle": "<p>Bring atmosphere to your special event<\/p>",
             "color_scheme": "invert",
             "text_position": "center-center",
             "button": "Shop Now",
-            "button_link": "shopify:\/\/collections\/party-lighting",
+            "button_link": "shopify:\/\/collections\/outdoor-party-lighting",
             "button_style": "default",
             "button_show_arrow": true,
             "secondary_button": "",

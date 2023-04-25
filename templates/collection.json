@@ -66,10 +66,10 @@
         "dc682780-de29-468f-b7b4-dd7fb3489971"
       ],
       "settings": {
-        "title": "Shop by category",
+        "title": "Shop Outdoor Lighting",
         "subtitle": "",
         "color_scheme": "invert",
-        "columns": 4,
+        "columns": 6,
         "gutter": "md",
         "text_align": "center",
         "image_size": "circle",
