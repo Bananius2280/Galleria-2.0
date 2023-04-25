@@ -6,7 +6,7 @@
         "text_size": "xl",
         "show_collection_image": true,
         "height": "medium",
-        "overlay": 20,
+        "overlay": 15,
         "color_scheme": "accent"
       }
     },
@@ -27,7 +27,6 @@
         },
         "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-2": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "gazebo-lighting"
           }
@@ -67,10 +66,10 @@
         "dc682780-de29-468f-b7b4-dd7fb3489971"
       ],
       "settings": {
-        "title": "Outdoor Collections",
+        "title": "Shop by category",
         "subtitle": "",
         "color_scheme": "invert",
-        "columns": 6,
+        "columns": 4,
         "gutter": "md",
         "text_align": "center",
         "image_size": "circle",
