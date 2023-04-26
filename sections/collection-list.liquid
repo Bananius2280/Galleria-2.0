@@ -1,10 +1,11 @@
+{%- if collection.metafields.custom.subcollections_banner != blank -%}
 <link rel="stylesheet" href="{{ 'collection-card.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'collection-card.css' | asset_url | stylesheet_tag }}</noscript>
 
 {% capture Content %}
   <div class="#grid @gap:{{ section.settings.gutter }} {% if section.settings.swipe_on_mobile %}@mobile-overlap{% else %}@mobile:columns:1{% endif %} @container @columns:{{ section.settings.columns }}">
     {% assign placeholder_index = 1 %}
-    {%- if collection.metafields.custom.subcollections_banner == blank -%}
+    {% comment %} {%- if collection.metafields.custom.subcollections_banner == blank -%}
       {% for block in section.blocks %}
       {%- capture placeholder_index -%}{%- cycle 1, 2, 3, 4, 5, 6 -%}{%- endcapture -%}
         <div class="#column reveal-animate" style="--reveal-index: {{ forloop.index }}">
@@ -19,8 +20,7 @@
           %}
         </div>
       {% endfor %}
-    {%- endif -%}
-    {%- if collection.metafields.custom.subcollections_banner != blank -%}
+    {%- endif -%} {% endcomment %}
       {%- assign subcolection_collections = collection.metafields.custom.subcollections_banner.value -%}
         {%- for subcolection_collections in subcolection_collections -%}
           {%- capture placeholder_index -%}{%- cycle 1, 2, 3, 4, 5, 6 -%}{%- endcapture -%}
@@ -35,7 +35,6 @@
                 align: section.settings.text_align %}
             </div>
           {%- endfor -%}
-      {%- endif -%}
   </div>
 {% endcapture %}
 
@@ -53,6 +52,8 @@
   button_link: routes.collections_url,
   color_scheme: section.settings.color_scheme
 %}
+
+{% endif %}
 
 {% schema %}
 {

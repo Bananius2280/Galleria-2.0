@@ -66,10 +66,10 @@
         "dc682780-de29-468f-b7b4-dd7fb3489971"
       ],
       "settings": {
-        "title": "Shop by category",
+        "title": "",
         "subtitle": "",
         "color_scheme": "invert",
-        "columns": 4,
+        "columns": 6,
         "gutter": "md",
         "text_align": "center",
         "image_size": "circle",
@@ -82,9 +82,9 @@
     "description": {
       "type": "main-collection-description",
       "settings": {
-        "text_size": "normal",
+        "text_size": "sm",
         "text_align": "default",
-        "content_width": "normal",
+        "content_width": "wide",
         "color_scheme": "default"
       }
     },

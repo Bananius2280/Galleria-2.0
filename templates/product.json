@@ -62,12 +62,23 @@
             "prev_attach": false
           }
         },
-        "description": {
+        "6b6685ef-a98f-4d5f-8168-89bf57666d38": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "text_size": "md",
             "use_expand": true,
             "prev_attach": false
+          }
+        },
+        "3e0f8331-69a8-416e-b722-b6b5e907c246": {
+          "type": "collapsible_tab_desc",
+          "settings": {
+          }
+        },
+        "c49a1a1d-cb5f-41ad-80df-f8df7f6cface": {
+          "type": "collapsible_tab_details",
+          "settings": {
           }
         },
         "share": {
@@ -101,7 +112,9 @@
         "52c0939c-7a0c-4df3-adab-3858adacd496",
         "buy_buttons",
         "45e144bf-b91f-4bff-adea-a9c2c72d672a",
-        "description",
+        "6b6685ef-a98f-4d5f-8168-89bf57666d38",
+        "3e0f8331-69a8-416e-b722-b6b5e907c246",
+        "c49a1a1d-cb5f-41ad-80df-f8df7f6cface",
         "share",
         "70584dec-4c98-4b2d-8351-207c37f05c60",
         "a9100a11-5cd4-4377-aefa-21a85be85e2c"

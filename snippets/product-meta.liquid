@@ -157,6 +157,44 @@
           share_title: product.title,
           share_image: product.featured_image
         %}
+      {% when 'collapsible_tab_desc' %}
+        {%- if product.description contains '[[features]]' -%}
+        {%- assign product_description = product.description | split: '[[features]]' | last | remove: "[[features end]]" | split: '[[details]]' | first -%}
+          <div class="#product-meta-collapse @align:{{ align }}" {{ block.shopify_attributes }}>
+            <details class="#product-meta-collapse-item">
+              <summary class="#product-meta-collapse-heading">
+                <div class="#product-meta-collapse-heading-inner">
+                  <span>Key Features</span>
+                  <div class="#product-meta-collapse-heading-indicator">
+                    {% render 'icon', name: 'chevron-down' %}
+                  </div>
+                </div>
+              </summary>
+              <div class="#product-meta-collapse-body">
+                {{ product_description }}
+              </div>
+            </details>
+          </div>
+        {%- endif -%}
+      {% when 'collapsible_tab_details' %}
+        {%- if product.description contains '[[details]]' -%}
+        {%- assign product_details = product.description | split: '[[details]]' | last | remove: "[[details end]]" | split: '[[details]]' | last -%}
+          <div class="#product-meta-collapse @align:{{ align }}" {{ block.shopify_attributes }}>
+            <details class="#product-meta-collapse-item">
+              <summary class="#product-meta-collapse-heading">
+                <div class="#product-meta-collapse-heading-inner">
+                  <span>Product Details & Specification</span>
+                  <div class="#product-meta-collapse-heading-indicator">
+                    {% render 'icon', name: 'chevron-down' %}
+                  </div>
+                </div>
+              </summary>
+              <div class="#product-meta-collapse-body">
+                {{ product_details }}
+              </div>
+            </details>
+          </div>
+        {%- endif -%}
       {% when 'collapsible_tab' %}
         <div class="#product-meta-collapse @align:{{ align }}" {{ block.shopify_attributes }}>
           <details class="#product-meta-collapse-item">
