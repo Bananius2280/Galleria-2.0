@@ -1,0 +1,252 @@
+{{ 'column-slider.css' | asset_url | stylesheet_tag }}
+{{ 'banner-with-product.css' | asset_url | stylesheet_tag }}
+{% capture Content %}
+  {% liquid
+    assign product_one = section.settings.slider_new_product_one
+    assign product_two = section.settings.slider_new_product_two  
+    assign product_form_id_one = 'product-form-' | append: section.id
+    assign product_form_id_two = 'product-form-' | append: section.id | append: 'two' 
+    assign current_variant_one = product_one.selected_or_first_available_variant
+    assign current_variant_two = product_two.selected_or_first_available_variant
+  
+    for item in cart.items
+      if product_one.id == item.product_id and item.variant_id == current_variant_one.id
+        assign in_cart_qty_one = item.quantity
+        break
+      endif
+      if product_two.id == item.product_id and item.variant_id == current_variant_two.id
+        assign in_cart_qty_two = item.quantity
+        break
+      endif
+    endfor
+
+    if section.settings.gallery_padding
+    
+    endif
+  %}
+  <div class="mobile-hidden">
+    <column-slider data-main-header-overlap>
+      <div class="#column-slider">
+        <div class="#column-slider-grid">
+          <div class="#grid @columns:{{ section.blocks.size }}" style="--grid-gap: 0;">
+            {% for block in section.blocks %}
+              <div
+                class="#column"
+                data-slide="{{ forloop.index0 }}"
+                {{ block.shopify_attributes }}>
+                <div class="#column-slider-grid-item banner-products__grid-item">
+                  {% if block.settings.link != blank %}
+                    <a href="{{ block.settings.link }}" class="stretched-link"></a>
+                  {% endif %}
+                  {% capture Caption %}
+                    {% render 'hero' 
+                     , heading: block.settings.heading,
+                     text: block.settings.text,
+                     size: section.settings.text_size,
+                     align: section.settings.text_align,
+                     color_scheme: section.settings.color_scheme %}
+                  {% endcapture %}
+
+                  <div class="banner-products">
+                    <div class="banner-products__container">
+                      <div class="banner-products__inner">
+                        {%- if section.settings.slider_new_title != blank or section.settings.slider_new_subtitle != blank or section.settings.slider_new_text or section.settings.slider_new_link_text != blank -%}
+                          <div class="banner-products__left">
+                            {%- if section.settings.slider_new_title != blank -%}
+                              <h1 class="banner-products__left--title">
+                                {{- section.settings.slider_new_title -}}
+                              </h1>
+                            {%- endif -%}
+                            {%- if section.settings.slider_new_subtitle != blank -%}
+                              <h2 class="banner-products__left--subtitle">
+                                {{- section.settings.slider_new_subtitle -}}
+                              </h2>
+                            {%- endif -%}
+                            {%- if section.settings.slider_new_text != blank -%}
+                              <div class="banner-products__left--text">
+                                {{- section.settings.slider_new_text -}}
+                              </div>
+                            {%- endif -%}
+                            {%- if section.settings.slider_new_link_text != blank -%}
+                              <a class="banner-products__left--btn" href="{{- section.settings.slider_new_link -}}">
+                                {{- section.settings.slider_new_link_text -}}
+                              </a>
+                            {%- endif -%}
+                          </div>
+                        {%- endif -%}
+                        {%- if section.settings.slider_new_product_one != blank or section.settings.slider_new_article_img != blank or section.settings.slider_new_product_two != blank -%}
+                          <div class="banner-products__right">
+                            {%- if section.settings.slider_new_product_one != blank -%}
+                              <div class="banner-products__right--item banner-products__right--item-product">
+                                {% render 'product-card' 
+                                 , product: section.settings.slider_new_product_one, %}
+                                {% render 'product-form' 
+                                 , product: section.settings.slider_new_product_one,
+                                 in_cart_qty: in_cart_qty_one,
+                                 current_variant: current_variant_one,
+                                 product_form_id: product_form_id_one %}
+                              </div>
+                            {%- endif -%}
+                            {%- if section.settings.slider_new_article_img != blank or section.settings.slider_new_article_text != blank or section.settings.slider_new_article_span != blank -%}
+                              <div class="banner-products__right--article banner-products__right--item">
+                                <img
+                                  class="banner-products__right--article-img"
+                                  src="{{ section.settings.slider_new_article_img | img_url: '290x' }}"
+                                  alt="{{ section.settings.slider_new_article_img.alt | escape }}"
+                                  width="145px"
+                                  height="28px"
+                                  loading="lazy">
+                                <p class="banner-products__right--article-text">
+                                  {{- section.settings.slider_new_article_text -}}
+                                </p>
+                                <span class="banner-products__right--article-span">
+                                  {{- section.settings.slider_new_article_span -}}
+                                </span>
+                              </div>
+                            {%- endif -%}
+                            {%- if section.settings.slider_new_product_two != blank -%}
+                              <div class="banner-products__right--item banner-products__right--item-product">
+                                {% render 'product-card' 
+                                 , product: section.settings.slider_new_product_two, %}
+                                {% render 'product-form' 
+                                 , product: section.settings.slider_new_product_two,
+                                 in_cart_qty: in_cart_qty_two,
+                                 current_variant: current_variant_two,
+                                 product_form_id: product_form_id_two %}
+                              </div>
+                            {%- endif -%}
+                          </div>
+                        {%- endif -%}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% for block in section.blocks %}
+          {%- capture placeholder_index -%}
+            {%- cycle 1, 2 -%}{%- endcapture -%}
+          <div
+            class="#column-slider-images {% if forloop.first %}@active{% endif %}"
+            data-bg-image
+            {{ block.shopify_attributes }}>
+            {% render 'media' 
+             , image: block.settings.image,
+             height: '100vh',
+             overlay: block.settings.overlay,
+             color_scheme: section.settings.color_scheme,
+             placeholder: 'lifestyle',
+             placeholder_index: placeholder_index %}
+          </div>
+        {% endfor %}
+      </div>
+    </column-slider>
+  </div>
+
+  <script type="module" src="{{ 'product-form.js' | asset_url }}"></script>
+  <script type="module" src="{{ 'column-slider.js' | asset_url }}"></script>
+{% endcapture %}
+
+{% render 'section-body' 
+ , content: Content %}
+
+
+{% schema %}
+  {
+    "name": "Banner with products",
+    "tag": "section",
+    "class": "spaced-section spaced-section--full-width banner-with__products",
+    "settings": [
+      {
+        "type": "text",
+        "id": "slider_new_title",
+        "label": "Title",
+        "default": "Quick links"
+      },
+      {
+        "type": "text",
+        "id": "slider_new_subtitle",
+        "label": "Subtitle",
+        "default": "Quick links"
+      },
+      {
+        "type": "richtext",
+        "id": "slider_new_text",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "slider_new_link_text",
+        "label": "Button",
+        "default": "Quick links"
+      }, {
+        "type": "url",
+        "id": "slider_new_link",
+        "label": "Button link"
+      }, {
+        "type": "header",
+        "content": "Products"
+      }, {
+        "type": "product",
+        "id": "slider_new_product_one",
+        "label": "First"
+      }, {
+        "type": "product",
+        "id": "slider_new_product_two",
+        "label": "Second"
+      }, {
+        "type": "header",
+        "content": "Article"
+      }, {
+        "type": "image_picker",
+        "id": "slider_new_article_img",
+        "label": "Image"
+      }, {
+        "type": "textarea",
+        "id": "slider_new_article_text",
+        "label": "Text",
+        "default": "Welcome to my shop!"
+      }, {
+        "type": "textarea",
+        "id": "slider_new_article_span",
+        "label": "Author",
+        "default": "Welcome to my shop!"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Image",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }, {
+            "type": "range",
+            "id": "overlay",
+            "label": "Overlay opacity",
+            "unit": "%",
+            "min": 0,
+            "max": 90,
+            "step": 5,
+            "default": 0
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Banner with products",
+        "blocks": [
+          {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

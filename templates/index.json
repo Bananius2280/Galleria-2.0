@@ -1,7 +1,35 @@
 {
   "sections": {
+    "1b6d14df-3fee-480a-89dd-1dc13d689429": {
+      "type": "banner-with-product",
+      "blocks": {
+        "template--16738064269552__1b6d14df-3fee-480a-89dd-1dc13d689429-1682844524eca89549-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Star_Burst_range_Outdoor_717_4.jpg",
+            "overlay": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16738064269552__1b6d14df-3fee-480a-89dd-1dc13d689429-1682844524eca89549-0"
+      ],
+      "settings": {
+        "slider_new_title": "Pretty lights",
+        "slider_new_subtitle": "to create atmosphere",
+        "slider_new_text": "<p>Bring a <strong>warm glow<\/strong> to your <strong>outdoor space<\/strong>!<\/p>",
+        "slider_new_link_text": "Discover more",
+        "slider_new_link": "",
+        "slider_new_product_one": "battery-festoon-lights",
+        "slider_new_product_two": "drop-bulb-festoon-lights",
+        "slider_new_article_img": "shopify:\/\/shop_images\/the-sunday-times-logo_1.svg",
+        "slider_new_article_text": "“You need living room-style lighting including pendants and table lamps to cosy up an outdoor space. Try hanging solar lanterns, in Tyvek from Sparkle overhead and on tables try LED portable lamps”",
+        "slider_new_article_span": "The Sunday Times Interior editor Katrina Burroughs."
+      }
+    },
     "1637156232245e9667": {
       "type": "column-slider",
+      "disabled": true,
       "blocks": {
         "163715623287453a4f-0": {
           "type": "column",
@@ -289,7 +317,7 @@
             "image": "shopify:\/\/shop_images\/Tan-cordless-table-lamps.jpg",
             "image_size": "large",
             "mobile_image": "shopify:\/\/shop_images\/green-cordless-table-lamps.jpg",
-            "mobile_image_size": "large",
+            "mobile_image_size": "original",
             "overlay": 50,
             "title": "Cordless Lights",
             "subtitle": "<p>Use them inside & out<\/p>",
@@ -311,7 +339,7 @@
             "span": "6",
             "image": "shopify:\/\/shop_images\/solar-garden-lanterns_577e32c0-bef8-4530-91bb-222d45dbfe28.png",
             "image_size": "large",
-            "mobile_image_size": "large",
+            "mobile_image_size": "original",
             "overlay": 0,
             "title": "Solar Garden Lights",
             "subtitle": "<p>Eco-friendly pretty lights<\/p>",
@@ -355,7 +383,7 @@
             "span": "4",
             "image": "shopify:\/\/shop_images\/boho-hoop-lights_a4257762-1e8d-47fc-b2f6-7e7eded9ac8b.jpg",
             "image_size": "large",
-            "mobile_image_size": "large",
+            "mobile_image_size": "original",
             "overlay": 50,
             "title": "Kid's Bedroom Lights",
             "subtitle": "<p>Bring a cosy vibe to their space<\/p>",
@@ -377,8 +405,8 @@
             "span": "4",
             "image": "shopify:\/\/shop_images\/solar-table-lanterns.jpg",
             "image_size": "large",
-            "mobile_image_size": "large",
-            "overlay": 0,
+            "mobile_image_size": "original",
+            "overlay": 45,
             "title": "Outdoor Party Lighting",
             "subtitle": "<p>Bring atmosphere to your special event<\/p>",
             "color_scheme": "invert",
@@ -537,61 +565,13 @@
             "logo_image": "shopify:\/\/shop_images\/rise-and-fall.webp",
             "logo_link": ""
           }
-        },
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-4": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_link": ""
-          }
-        },
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-5": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_link": ""
-          }
-        },
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-6": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_link": ""
-          }
-        },
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-7": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_link": ""
-          }
-        },
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-8": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_link": ""
-          }
-        },
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-9": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_link": ""
-          }
         }
       },
       "block_order": [
         "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-2",
         "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-0",
         "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-1",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-3",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-4",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-5",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-6",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-7",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-8",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-9"
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-3"
       ],
       "settings": {
         "title": "As featured on",
@@ -625,6 +605,7 @@
     }
   },
   "order": [
+    "1b6d14df-3fee-480a-89dd-1dc13d689429",
     "1637156232245e9667",
     "16371563135a329e27",
     "1637156418dc83c366",
