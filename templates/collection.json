@@ -3,7 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "text_size": "xl",
+        "text_size": "lg",
         "show_collection_image": true,
         "height": "medium",
         "overlay": 55,
