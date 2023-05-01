@@ -1,0 +1,41 @@
+{{ 'icons.css' | asset_url | stylesheet_tag }}
+<div class="icons-items">
+  {%- for block in section.blocks -%}
+    <div class="icons-item">
+      {% if block.settings.image != blank %}
+        <img
+          class="icons-item__img"
+          src="{{ block.settings.image | image_url: width: 466 }}"
+          alt="{{ block.settings.image.alt | escape }}"
+          width="233"
+          height="233"
+          loading="lazy">
+      {% endif %}
+    </div>
+  {%- endfor -%}
+</div>
+
+{% schema %}
+  {
+    "name": "Icons",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Icon"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Icons"
+      }
+    ]
+  }
+{% endschema %}
