@@ -6,12 +6,13 @@
         "text_size": "lg",
         "show_collection_image": true,
         "height": "medium",
-        "overlay": 55,
+        "overlay": 90,
         "color_scheme": "accent"
       }
     },
     "60a4a1af-aabc-4817-9488-d62ff8e57940": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-0": {
           "type": "featured_collection",
@@ -82,9 +83,9 @@
     "description": {
       "type": "main-collection-description",
       "settings": {
-        "text_size": "sm",
-        "text_align": "default",
-        "content_width": "wide",
+        "text_size": "lg",
+        "text_align": "center",
+        "content_width": "normal",
         "color_scheme": "default"
       }
     },

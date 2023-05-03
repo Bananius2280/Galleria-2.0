@@ -208,12 +208,43 @@
         "highlight_active": true,
         "text_size": "md"
       }
+    },
+    "43e04d25-4480-48d2-acab-58fe0a278d6d": {
+      "type": "icons",
+      "blocks": {
+        "2ede5e7a-11df-4550-afb2-da964c4d60ab": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_36.png"
+          }
+        },
+        "690c7577-14dc-4bd8-98ca-5d9d6134ee69": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_37.png"
+          }
+        },
+        "c9625a46-c67a-4ea2-a545-173682c8990b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_34.png"
+          }
+        }
+      },
+      "block_order": [
+        "2ede5e7a-11df-4550-afb2-da964c4d60ab",
+        "690c7577-14dc-4bd8-98ca-5d9d6134ee69",
+        "c9625a46-c67a-4ea2-a545-173682c8990b"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "testimonials",
     "product-recommendations",
-    "dd82d725-5771-4010-984b-edd9080f326b"
+    "dd82d725-5771-4010-984b-edd9080f326b",
+    "43e04d25-4480-48d2-acab-58fe0a278d6d"
   ]
 }

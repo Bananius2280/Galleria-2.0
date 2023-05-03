@@ -20,8 +20,8 @@
         "slider_new_text": "<p>Bring a <strong>warm glow<\/strong> to your <strong>outdoor space<\/strong>!<\/p>",
         "slider_new_link_text": "Discover more",
         "slider_new_link": "shopify:\/\/collections\/garden-lighting",
-        "slider_new_product_one": "battery-festoon-lights",
-        "slider_new_product_two": "drop-bulb-festoon-lights",
+        "slider_new_product_one": "outdoor-solar-lanterns",
+        "slider_new_product_two": "cordless-ribbed-glass-table-lamps",
         "slider_new_article_img": "shopify:\/\/shop_images\/the-sunday-times-logo_1.svg",
         "slider_new_article_text": "“You need living room-style lighting including pendants and table lamps to cosy up an outdoor space. Try hanging solar lanterns, in Tyvek from Sparkle overhead and on tables try LED portable lamps”",
         "slider_new_article_span": "The Sunday Times Interior editor Katrina Burroughs."
@@ -602,6 +602,50 @@
         "hover_zoom": true,
         "section_button": "Read more"
       }
+    },
+    "25f11b5a-7e79-4ad9-9ca3-09bd8e887cac": {
+      "type": "icons",
+      "blocks": {
+        "e1adaedf-cc4f-4b72-ac96-1fdc0bfb302c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_36.png"
+          }
+        },
+        "6db48b17-caaa-4bc7-8df0-3717dff34dbd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_37.png"
+          }
+        },
+        "e9b3b61d-c827-4cd5-afa3-c4723261f0a0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_34.png"
+          }
+        },
+        "9f9b71e6-ebdb-44ff-aa99-04fb0f8a5e58": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_38.png"
+          }
+        },
+        "823c97c2-5abd-4ddb-b71a-3c5974d02f24": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_39.png"
+          }
+        }
+      },
+      "block_order": [
+        "e1adaedf-cc4f-4b72-ac96-1fdc0bfb302c",
+        "6db48b17-caaa-4bc7-8df0-3717dff34dbd",
+        "e9b3b61d-c827-4cd5-afa3-c4723261f0a0",
+        "9f9b71e6-ebdb-44ff-aa99-04fb0f8a5e58",
+        "823c97c2-5abd-4ddb-b71a-3c5974d02f24"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -615,6 +659,7 @@
     "16371565156a529cad",
     "2e20d04b-d034-46d4-baa5-6e0a2796bc55",
     "9da109cd-7d7d-479a-9f2b-3be4b967f114",
-    "163715652923809d9e"
+    "163715652923809d9e",
+    "25f11b5a-7e79-4ad9-9ca3-09bd8e887cac"
   ]
 }
