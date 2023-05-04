@@ -16,6 +16,7 @@
 
 
 {{ 'product-meta.css' | asset_url | stylesheet_tag }}
+{{ 'icons.css' | asset_url | stylesheet_tag }}
 
 <div class="
   #product-meta
@@ -238,6 +239,42 @@
             {% endif %}
             <div class="#product-meta-custom-html">{{ block.settings.html }}</div>
           {% endif %}
+                {% when 'icons' %}
+          <div class="icons-items">
+            {% if block.settings.icons_image_one != blank %}
+              <div class="icons-item">
+                <img
+                class="icons-item__img"
+                src="{{ block.settings.icons_image_one | image_url: width: 200 }}"
+                alt="{{ block.settings.icons_image_one.alt | escape }}"
+                width="100"
+                height="100"
+                loading="lazy">
+              </div>
+            {% endif %}
+            {% if block.settings.icons_image_two != blank %}
+              <div class="icons-item">
+                <img
+                class="icons-item__img"
+                src="{{ block.settings.icons_image_two | image_url: width: 200 }}"
+                alt="{{ block.settings.icons_image_two.alt | escape }}"
+                width="100"
+                height="100"
+                loading="lazy">
+              </div>
+            {% endif %}
+            {% if block.settings.icons_image_three != blank %}
+              <div class="icons-item">
+                <img
+                class="icons-item__img"
+                src="{{ block.settings.icons_image_three | image_url: width: 200 }}"
+                alt="{{ block.settings.icons_image_three.alt | escape }}"
+                width="100"
+                height="100"
+                loading="lazy">
+              </div>
+            {% endif %}
+          </div>
       {% when 'custom_image' %}
           {% if block.settings.heading != blank %}
             <h5 class="#product-meta-block-heading">{{ block.settings.heading }}</h5>
@@ -249,7 +286,8 @@
             {% if block.settings.link != blank %}
               <a href="{{ block.settings.link }}" class="stretched-link"></a>
             {% endif %}
-          </div>
+        </div>
+      </div>
       {% when '@app' %}
           {% render block %}
     {% endcase %}

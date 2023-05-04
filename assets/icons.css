@@ -3,30 +3,41 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 80px 0 60px;
+  padding: 0 0 60px;
 }
 
 .icons-item {
-  margin: 20px 100px;
-  width: 233px;
+  margin: 20px 40px;
+  width: 150px;
+  height: 150px;
+}
+
+.\#product-meta .icons-item {
+  width: 29%;
+  height: 29%;
+  margin: 0;
+}
+
+.\#product-meta .icons-items {
+  padding: 0;
+  justify-content: space-around;
 }
 
 .icons-item__img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 @media only screen and (max-width:900px) {
-.icons-item {
-    margin: 20px 30px;
-}
+  .icons-item {
+      margin: 20px 10px;
+  }
 }
 
 @media only screen and (max-width:600px) {
   .icons-item {
-    margin: 90px 110px;
+      width: 115px;
+      height: 115px;
   }
-
-    .icons-items {
-      padding: 0;
-    }
 }

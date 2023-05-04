@@ -1,14 +1,23 @@
 {{ 'icons.css' | asset_url | stylesheet_tag }}
+ {%- if section.settings.title != blank -%}
+  <div class="#section-header ">
+    <div class="#hero @color-scheme:inherit @size:md @spaced:sm @align:center">
+      <div class="#hero-block reveal-animate">
+        <h3 class="#hero-heading heading-font">{{ section.settings.title }}</h3>
+      </div>
+    </div>  
+  </div>
+{%- endif -%}
 <div class="icons-items">
   {%- for block in section.blocks -%}
     <div class="icons-item">
       {% if block.settings.image != blank %}
         <img
           class="icons-item__img"
-          src="{{ block.settings.image | image_url: width: 466 }}"
+          src="{{ block.settings.image | image_url: width: 300 }}"
           alt="{{ block.settings.image.alt | escape }}"
-          width="233"
-          height="233"
+          width="150"
+          height="150"
           loading="lazy">
       {% endif %}
     </div>
@@ -18,7 +27,14 @@
 {% schema %}
   {
     "name": "Icons",
-    "settings": [],
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Why Sparkle",
+        "label": "Title"
+      }
+    ],
     "blocks": [
       {
         "type": "column",
