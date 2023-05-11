@@ -125,18 +125,18 @@
           dynamic_checkout: block.settings.show_dynamic_checkout,
           product_form_id: product_form_id
         %} 
-        <div class="#main-footer-payment">
-          <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
-          <div class="#main-footer-payment-list">
-             {% comment %} {%- for type in shop.enabled_payment_types -%}
-              {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-            {%- endfor -%}  {% endcomment %}
-            {% assign enabled_payment_types = 'american_express,apple_pay,diners_club,google_pay,maestro,master,paypal,shopify_pay,visa' | remove: ' ' | split: ',' %}
-            {% for type in enabled_payment_types %}
-              {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-            {%- endfor -%}
+        {%- if block.settings.payment_checkbox -%}
+          <div class="#main-footer-payment">
+            <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
+            <div class="#main-footer-payment-list product-meta__payment--list">
+              {%- for type in shop.enabled_payment_types -%}
+                {%- unless type == 'discover' or type == 'unionpay' -%}
+                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                {%- endunless -%}
+              {%- endfor -%} 
+            </div>
           </div>
-        </div>
+        {%- endif -%}
       {% when 'separator' %}
         <hr class="#product-meta-separator">
       {% when 'spacer' %}

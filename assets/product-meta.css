@@ -201,3 +201,7 @@
     width: calc(var(--spacer) * 1.2);
     height: calc(var(--spacer) * 1.2);
 }
+
+.\#main-footer-payment .product-meta__payment--list {
+  justify-content: center;
+}
