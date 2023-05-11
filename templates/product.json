@@ -13,8 +13,8 @@
         "subtitle": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.descriptors.subtitle.value }}<\/p>",
-            "text_style": "subtitle",
+            "text": "<p>{{ product.metafields.my_fields.sub_title.value }}<\/p>",
+            "text_style": "body",
             "text_uppercase": false,
             "text_weight": "normal",
             "text_url": "",
@@ -42,11 +42,22 @@
         "52c0939c-7a0c-4df3-adab-3858adacd496": {
           "type": "stock_alert",
           "settings": {
-            "in_stock_msg": "In stock! Usually ships within 24 hours.",
+            "in_stock_msg": "In stock! Usually ships within 24 hours",
             "out_of_stock_msg": "This item is temporary out of stock",
             "low_stock_msg": "Only [[amount]] left in stock!",
             "stock_threshold": 5,
             "prev_attach": false
+          }
+        },
+        "d533cc9e-344d-4e9b-821f-0409af0e3a2e": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Free Delivery over £60 <\/li><li>Express Available<\/li><\/ul>",
+            "text_style": "subtitle",
+            "text_uppercase": true,
+            "text_weight": "normal",
+            "text_url": "",
+            "prev_attach": true
           }
         },
         "buy_buttons": {
@@ -54,6 +65,14 @@
           "settings": {
             "show_dynamic_checkout": true,
             "prev_attach": false
+          }
+        },
+        "c324df6c-b8f4-4a60-8f5f-5e309ef368ba": {
+          "type": "icons",
+          "settings": {
+            "icons_image_one": "shopify:\/\/shop_images\/Group_36.png",
+            "icons_image_two": "shopify:\/\/shop_images\/Group_37.png",
+            "icons_image_three": "shopify:\/\/shop_images\/Group_34.png"
           }
         },
         "45e144bf-b91f-4bff-adea-a9c2c72d672a": {
@@ -64,7 +83,6 @@
         },
         "6b6685ef-a98f-4d5f-8168-89bf57666d38": {
           "type": "description",
-          "disabled": true,
           "settings": {
             "text_size": "md",
             "use_expand": true,
@@ -83,6 +101,7 @@
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "prev_attach": false
           }
@@ -99,7 +118,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "About Us",
-            "content": "<p>We have been designing and manufacturing bags and cases in our own backyard from the start. This lets us turn prototypes to production very quickly and ensure products are made just right.<\/p>",
+            "content": "<p>Sparkle is an online store offering a curated collection of all year pretty lights for homes, gardens & events.<\/p>",
             "page": ""
           }
         }
@@ -110,7 +129,9 @@
         "price",
         "variant_picker",
         "52c0939c-7a0c-4df3-adab-3858adacd496",
+        "d533cc9e-344d-4e9b-821f-0409af0e3a2e",
         "buy_buttons",
+        "c324df6c-b8f4-4a60-8f5f-5e309ef368ba",
         "45e144bf-b91f-4bff-adea-a9c2c72d672a",
         "6b6685ef-a98f-4d5f-8168-89bf57666d38",
         "3e0f8331-69a8-416e-b722-b6b5e907c246",
@@ -133,6 +154,7 @@
     },
     "testimonials": {
       "type": "testimonials",
+      "disabled": true,
       "blocks": {
         "163715354454e15e6a-0": {
           "type": "testimonial",
@@ -211,6 +233,7 @@
     },
     "43e04d25-4480-48d2-acab-58fe0a278d6d": {
       "type": "icons",
+      "disabled": true,
       "blocks": {
         "2ede5e7a-11df-4550-afb2-da964c4d60ab": {
           "type": "column",
@@ -237,6 +260,7 @@
         "c9625a46-c67a-4ea2-a545-173682c8990b"
       ],
       "settings": {
+        "title": "Why Sparkle"
       }
     }
   },

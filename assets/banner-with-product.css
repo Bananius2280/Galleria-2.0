@@ -193,6 +193,14 @@
   display: block;
 }
 
+.banner-products__right--item .\#button::after {
+  display: none;
+}
+
+.banner-products__right--item .\#button {
+  background: unset;
+}
+
 .banner-with__products .\#button-text {
   font-size: 0;
 }

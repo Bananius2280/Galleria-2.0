@@ -69,7 +69,7 @@
 }
 
 .\#button.\@color\:accent-invert, .shopify-payment-button__button.shopify-payment-button__button--unbranded {
-    --background-color: rgba(var(--color-accent), 1);
+    background: var(--color-accent);
     --text-color: rgba(var(--color-accent-c), 1);
 }
 
@@ -264,7 +264,7 @@
 }
 
 .spr-button-primary {
-    background-color: rgba(var(--color-accent), 1);
+    background: var(--color-accent);
     color: rgba(var(--color-accent-c), 1);
 }
 

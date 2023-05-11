@@ -12,9 +12,10 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
-        "text_size": "normal",
-        "content_width": "normal"
+        "text_size": "sm",
+        "content_width": "narrow"
       }
     },
     "c7b14cd4-f041-443d-8390-af1f431725b1": {
@@ -108,7 +109,7 @@
         "template--16735564267760__0711bda6-68a6-45f6-a3af-e6ea5d82c2b4-168174888298b4bfea-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Why Sparkle?"
           }
         },
         "template--16735564267760__0711bda6-68a6-45f6-a3af-e6ea5d82c2b4-168174888298b4bfea-1": {
@@ -145,6 +146,103 @@
         "text_size": "md",
         "text_position": "center-center"
       }
+    },
+    "924cf4b3-a397-4263-8964-6e8a239ade64": {
+      "type": "logo-list",
+      "blocks": {
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-0": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/the-sunday-times-logo_1.png",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-1": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/the-telegraph-logo.png",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-2": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/The-Independent-Logo_12a12bf4-505e-44ac-9275-f078e5687202.png",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/metro-200.png",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-4": {
+          "type": "logo",
+          "settings": {
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-5": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/homes-and-gardens-logo_fb136242-d02c-4a86-a949-98988ad2d66c.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-6": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/ideal-home.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-7": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/good-homes-200.webp",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-8": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/real-homes.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-9": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/english-home-200.webp",
+            "logo_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-0",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-1",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-2",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-3",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-4",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-5",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-6",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-7",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-8",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-9"
+      ],
+      "settings": {
+        "title": "Sparkle has been featured IN",
+        "subtitle": "",
+        "color_scheme": "invert",
+        "columns": 5,
+        "logo_max_height": 120,
+        "gutter": "md",
+        "enable_grayscale_hover": true,
+        "section_button": "",
+        "section_button_link": ""
+      }
     }
   },
   "order": [
@@ -152,6 +250,7 @@
     "main",
     "c7b14cd4-f041-443d-8390-af1f431725b1",
     "c726491c-8259-41d7-a154-6a3c74581c0e",
-    "0711bda6-68a6-45f6-a3af-e6ea5d82c2b4"
+    "0711bda6-68a6-45f6-a3af-e6ea5d82c2b4",
+    "924cf4b3-a397-4263-8964-6e8a239ade64"
   ]
 }

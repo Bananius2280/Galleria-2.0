@@ -149,6 +149,52 @@
         "section_button": ""
       }
     },
+    "25f11b5a-7e79-4ad9-9ca3-09bd8e887cac": {
+      "type": "icons",
+      "blocks": {
+        "e1adaedf-cc4f-4b72-ac96-1fdc0bfb302c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_36.png"
+          }
+        },
+        "6db48b17-caaa-4bc7-8df0-3717dff34dbd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_37.png"
+          }
+        },
+        "e9b3b61d-c827-4cd5-afa3-c4723261f0a0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_34.png"
+          }
+        },
+        "9f9b71e6-ebdb-44ff-aa99-04fb0f8a5e58": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_38.png"
+          }
+        },
+        "823c97c2-5abd-4ddb-b71a-3c5974d02f24": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_39.png"
+          }
+        }
+      },
+      "block_order": [
+        "e1adaedf-cc4f-4b72-ac96-1fdc0bfb302c",
+        "6db48b17-caaa-4bc7-8df0-3717dff34dbd",
+        "e9b3b61d-c827-4cd5-afa3-c4723261f0a0",
+        "9f9b71e6-ebdb-44ff-aa99-04fb0f8a5e58",
+        "823c97c2-5abd-4ddb-b71a-3c5974d02f24"
+      ],
+      "settings": {
+        "title": "Why Sparkle?"
+      }
+    },
     "1637156408ba495eb1": {
       "type": "image-with-text",
       "blocks": {
@@ -299,8 +345,8 @@
         "title": "As seen in",
         "subtitle": "",
         "color_scheme": "alt",
-        "columns": 4,
-        "logo_max_height": 120,
+        "columns": 6,
+        "logo_max_height": 70,
         "gutter": "sm",
         "enable_grayscale_hover": false,
         "section_button": "",
@@ -602,50 +648,6 @@
         "hover_zoom": true,
         "section_button": "Read more"
       }
-    },
-    "25f11b5a-7e79-4ad9-9ca3-09bd8e887cac": {
-      "type": "icons",
-      "blocks": {
-        "e1adaedf-cc4f-4b72-ac96-1fdc0bfb302c": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_36.png"
-          }
-        },
-        "6db48b17-caaa-4bc7-8df0-3717dff34dbd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_37.png"
-          }
-        },
-        "e9b3b61d-c827-4cd5-afa3-c4723261f0a0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_34.png"
-          }
-        },
-        "9f9b71e6-ebdb-44ff-aa99-04fb0f8a5e58": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_38.png"
-          }
-        },
-        "823c97c2-5abd-4ddb-b71a-3c5974d02f24": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_39.png"
-          }
-        }
-      },
-      "block_order": [
-        "e1adaedf-cc4f-4b72-ac96-1fdc0bfb302c",
-        "6db48b17-caaa-4bc7-8df0-3717dff34dbd",
-        "e9b3b61d-c827-4cd5-afa3-c4723261f0a0",
-        "9f9b71e6-ebdb-44ff-aa99-04fb0f8a5e58",
-        "823c97c2-5abd-4ddb-b71a-3c5974d02f24"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -653,13 +655,13 @@
     "1637156232245e9667",
     "16371563135a329e27",
     "1637156418dc83c366",
+    "25f11b5a-7e79-4ad9-9ca3-09bd8e887cac",
     "1637156408ba495eb1",
     "bf25af37-8a16-43fa-bd27-04bb31f0b36c",
     "16371564758217e773",
     "16371565156a529cad",
     "2e20d04b-d034-46d4-baa5-6e0a2796bc55",
     "9da109cd-7d7d-479a-9f2b-3be4b967f114",
-    "163715652923809d9e",
-    "25f11b5a-7e79-4ad9-9ca3-09bd8e887cac"
+    "163715652923809d9e"
   ]
 }
