@@ -66,8 +66,13 @@
     }
 }
 
-.\#product-meta-block.\@type\:collapsible_tab + .\#product-meta-block.\@type\:collapsible_tab {
+.\#product-meta-block.\@type\:collapsible_tab + .\#product-meta-block.\@type\:collapsible_tab,
+.\#product-meta-block.\@type\:collapsible_tab_details {
     margin-top: -1.75rem;
+}
+
+.\#product-meta-block.\@type\:collapsible_tab_details .\#product-meta-collapse:before {
+    content: none;
 }
 
 .\#product-meta-block.\@type\:collapsible_tab + .\#product-meta-block.\@type\:collapsible_tab .\#product-meta-collapse:before {
@@ -195,4 +200,8 @@
     stroke-width: 3;
     width: calc(var(--spacer) * 1.2);
     height: calc(var(--spacer) * 1.2);
+}
+
+.\#main-footer-payment .product-meta__payment--list {
+  justify-content: center;
 }

@@ -5,11 +5,11 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "settings": {
-        "display": false,
+        "display": true,
         "dismissible": true,
-        "text_color": "#fbcf00",
-        "bg_color": "#232734",
-        "text": "Free shipping over $50",
+        "text_color": "#222222",
+        "bg_color": "linear-gradient(90deg, rgba(139, 96, 49, 1) 20%, rgba(234, 218, 188, 1) 45%, rgba(161, 129, 92, 1) 70%, rgba(139, 96, 49, 1) 90%)",
+        "text": "FREE SHIPPING £60+  | 1 YEAR GUARANTEE | 60 DAY RETURNS",
         "url": ""
       }
     },
@@ -30,13 +30,15 @@
             "text": "INDOOR",
             "link": "shopify:\/\/collections\/indoor-lights",
             "first_image_show": true,
-            "first_image_url": "",
-            "first_image_heading": "Image heading",
-            "first_image_subheading": "Image subheading",
+            "first_image": "shopify:\/\/shop_images\/starburst-bedroom-fairy-lights.jpg",
+            "first_image_url": "shopify:\/\/collections\/bedroom-lights",
+            "first_image_heading": "Bedroom Lights",
+            "first_image_subheading": "SHOP HERE",
             "second_image_show": true,
-            "second_image_url": "",
-            "second_image_heading": "Image heading",
-            "second_image_subheading": "Image subheading"
+            "second_image": "shopify:\/\/shop_images\/boho-hoop-lights_c3afeb1d-69db-4ebc-89d6-79646c081f21.jpg",
+            "second_image_url": "shopify:\/\/collections\/childrens-bedroom-lights",
+            "second_image_heading": "Children's Lights",
+            "second_image_subheading": "SHOP HERE"
           }
         },
         "b01a07d9-0fb2-488d-b564-a35fd8191f77": {
@@ -46,13 +48,15 @@
             "text": "OUTDOOR",
             "link": "shopify:\/\/collections\/garden-lighting",
             "first_image_show": true,
-            "first_image_url": "",
-            "first_image_heading": "Image heading",
-            "first_image_subheading": "Image subheading",
+            "first_image": "shopify:\/\/shop_images\/solar-lanterns-in-outdoor-space.jpg",
+            "first_image_url": "shopify:\/\/collections\/solar-outdoor-garden-lighting",
+            "first_image_heading": "Solar Lights",
+            "first_image_subheading": "SHOP HERE",
             "second_image_show": true,
-            "second_image_url": "",
-            "second_image_heading": "Image heading",
-            "second_image_subheading": "Image subheading"
+            "second_image": "shopify:\/\/shop_images\/edison-festoon-lights.jpg",
+            "second_image_url": "shopify:\/\/collections\/festoon-lighting",
+            "second_image_heading": "Festoon Lights",
+            "second_image_subheading": "SHOP HERE"
           }
         },
         "4511f235-da14-43cd-ae2c-cc69faf8f9c6": {
@@ -62,13 +66,15 @@
             "text": "FAIRY & STRING",
             "link": "shopify:\/\/collections\/fairy-lights",
             "first_image_show": true,
-            "first_image_url": "",
-            "first_image_heading": "Image heading",
-            "first_image_subheading": "Image subheading",
+            "first_image": "shopify:\/\/shop_images\/confetti-fairy-lights-along-a-_mantlepiece.jpg",
+            "first_image_url": "shopify:\/\/collections\/plug-in-fairy-lights",
+            "first_image_heading": "Plug In Fairy Lights",
+            "first_image_subheading": "SHOP HERE",
             "second_image_show": true,
-            "second_image_url": "",
-            "second_image_heading": "Image heading",
-            "second_image_subheading": "Image subheading"
+            "second_image": "shopify:\/\/shop_images\/starburst-outdoor-fairy-lights.png",
+            "second_image_url": "shopify:\/\/collections\/garden-fairy-lights",
+            "second_image_heading": "Outdoor Fairy Lights",
+            "second_image_subheading": "SHOP HERE"
           }
         },
         "f8c8b680-5c95-49a7-94f4-944acfb0cd38": {
@@ -78,13 +84,15 @@
             "text": "EVENTS",
             "link": "shopify:\/\/collections\/seasonal-lights",
             "first_image_show": true,
-            "first_image_url": "",
-            "first_image_heading": "Image heading",
-            "first_image_subheading": "Image subheading",
+            "first_image": "shopify:\/\/shop_images\/Star_Burst_range_Outdoor_717_4.jpg",
+            "first_image_url": "shopify:\/\/collections\/outdoor-party-lighting",
+            "first_image_heading": "Outdoor Party Lighting",
+            "first_image_subheading": "SHOP HERE",
             "second_image_show": true,
-            "second_image_url": "",
-            "second_image_heading": "Image heading",
-            "second_image_subheading": "Image subheading"
+            "second_image": "shopify:\/\/shop_images\/white-fairy-lights_07f3715d-d7d3-472c-93a6-a00221bb5fc7.jpg",
+            "second_image_url": "shopify:\/\/collections\/lights-for-wedding-reception",
+            "second_image_heading": "Indoor Wedding Lights",
+            "second_image_subheading": "SHOP HERE"
           }
         },
         "8a1b6508-d944-431e-b42b-d3fffec7a70f": {
@@ -94,13 +102,15 @@
             "text": "MORE",
             "link": "shopify:\/\/collections\/all",
             "first_image_show": true,
-            "first_image_url": "",
-            "first_image_heading": "Image heading",
-            "first_image_subheading": "Image subheading",
+            "first_image": "shopify:\/\/shop_images\/outdoor-pergola-fairy-lights-and-festoon-lights_e34d4e3c-4f25-4b51-a7cc-c4c244111dad.jpg",
+            "first_image_url": "shopify:\/\/blogs\/garden-lighting\/pergola-lighting-ideas",
+            "first_image_heading": "5 Pergola Lighting Ideas",
+            "first_image_subheading": "READ MORE",
             "second_image_show": true,
-            "second_image_url": "",
-            "second_image_heading": "Image heading",
-            "second_image_subheading": "Image subheading"
+            "second_image": "shopify:\/\/shop_images\/outdoor_solar_lanterns_and_hanging_lights.jpg",
+            "second_image_url": "shopify:\/\/blogs\/articles\/guide-to-festoon-lights",
+            "second_image_heading": "5 Places to use garden lighting",
+            "second_image_subheading": "read more"
           }
         }
       },

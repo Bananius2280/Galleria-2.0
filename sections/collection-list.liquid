@@ -1,23 +1,29 @@
+{%- if template.name == 'collection' -%}
+{%- if collection.metafields.custom.subcollections_banner != blank -%}
 <link rel="stylesheet" href="{{ 'collection-card.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'collection-card.css' | asset_url | stylesheet_tag }}</noscript>
 
 {% capture Content %}
   <div class="#grid @gap:{{ section.settings.gutter }} {% if section.settings.swipe_on_mobile %}@mobile-overlap{% else %}@mobile:columns:1{% endif %} @container @columns:{{ section.settings.columns }}">
     {% assign placeholder_index = 1 %}
-    {% for block in section.blocks %}
-    {%- capture placeholder_index -%}{%- cycle 1, 2, 3, 4, 5, 6 -%}{%- endcapture -%}
-      <div class="#column reveal-animate" style="--reveal-index: {{ forloop.index }}">
-        {% render 'collection-card',
-          collection: block.settings.collection,
-          custom_image: block.settings.image,
-          placeholder_index: placeholder_index,
-          image_size: section.settings.image_size,
-          columns: section.settings.columns,
-          media_hover_zoom: section.settings.hover_zoom,
-          align: section.settings.text_align
-        %}
-      </div>
-    {% endfor %}
+
+
+
+      {%- assign subcolection_collections = collection.metafields.custom.subcollections_banner.value -%}
+        {%- for subcolection_collections in subcolection_collections -%}
+          {%- capture placeholder_index -%}{%- cycle 1, 2, 3, 4, 5, 6 -%}{%- endcapture -%}
+            <div class="#column reveal-animate" style="--reveal-index: {{ forloop.index }}">
+              {% render 'collection-card',
+                collection: subcolection_collections, 
+                custom_image: subcolection_collections.image,
+                placeholder_index: placeholder_index,
+                image_size: section.settings.image_size,
+                columns: section.settings.columns,
+                media_hover_zoom: section.settings.hover_zoom,
+                align: section.settings.text_align %}
+            </div>
+          {%- endfor -%}
+ 
   </div>
 {% endcapture %}
 
@@ -35,6 +41,50 @@
   button_link: routes.collections_url,
   color_scheme: section.settings.color_scheme
 %}
+
+{%- endif -%}
+{% else %}
+<link rel="stylesheet" href="{{ 'collection-card.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'collection-card.css' | asset_url | stylesheet_tag }}</noscript>
+
+{% capture Content %}
+  <div class="#grid @gap:{{ section.settings.gutter }} {% if section.settings.swipe_on_mobile %}@mobile-overlap{% else %}@mobile:columns:1{% endif %} @container @columns:{{ section.settings.columns }}">
+    {% assign placeholder_index = 1 %}
+
+       {% for block in section.blocks %}
+      {%- capture placeholder_index -%}{%- cycle 1, 2, 3, 4, 5, 6 -%}{%- endcapture -%}
+        <div class="#column reveal-animate" style="--reveal-index: {{ forloop.index }}">
+          {% render 'collection-card',
+            collection: block.settings.collection,
+            custom_image: block.settings.image,
+            placeholder_index: placeholder_index,
+            image_size: section.settings.image_size,
+            columns: section.settings.columns,
+            media_hover_zoom: section.settings.hover_zoom,
+            align: section.settings.text_align
+          %}
+        </div>
+      {% endfor %} 
+  </div>
+{% endcapture %}
+
+{% if section.settings.show_section_button %}
+  {%- assign section_button = section.settings.section_button -%}
+{% endif %}
+
+{% render 'section-body',
+  content: Content,
+  container: false,
+  spaced: true,
+  title: section.settings.title,
+  subtitle: section.settings.subtitle,
+  button: section_button,
+  button_link: routes.collections_url,
+  color_scheme: section.settings.color_scheme
+%}
+
+  
+{%- endif -%}
 
 {% schema %}
 {

@@ -1,7 +1,35 @@
 {
   "sections": {
+    "1b6d14df-3fee-480a-89dd-1dc13d689429": {
+      "type": "banner-with-product",
+      "blocks": {
+        "template--16738064269552__1b6d14df-3fee-480a-89dd-1dc13d689429-1682844524eca89549-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Star_Burst_range_Outdoor_717_4.jpg",
+            "overlay": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16738064269552__1b6d14df-3fee-480a-89dd-1dc13d689429-1682844524eca89549-0"
+      ],
+      "settings": {
+        "slider_new_title": "Pretty lights",
+        "slider_new_subtitle": "to create atmosphere",
+        "slider_new_text": "<p>Bring a <strong>warm glow<\/strong> to your <strong>outdoor space<\/strong>!<\/p>",
+        "slider_new_link_text": "Discover more",
+        "slider_new_link": "shopify:\/\/collections\/garden-lighting",
+        "slider_new_product_one": "outdoor-solar-lanterns",
+        "slider_new_product_two": "cordless-ribbed-glass-table-lamps",
+        "slider_new_article_img": "shopify:\/\/shop_images\/the-sunday-times-logo_1.svg",
+        "slider_new_article_text": "“You need living room-style lighting including pendants and table lamps to cosy up an outdoor space. Try hanging solar lanterns, in Tyvek from Sparkle overhead and on tables try LED portable lamps”",
+        "slider_new_article_span": "The Sunday Times Interior editor Katrina Burroughs."
+      }
+    },
     "1637156232245e9667": {
       "type": "column-slider",
+      "disabled": true,
       "blocks": {
         "163715623287453a4f-0": {
           "type": "column",
@@ -48,49 +76,56 @@
     "16371563135a329e27": {
       "type": "collection-list",
       "blocks": {
-        "1637156313539373b5-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "indoor-lights"
-          }
-        },
         "1637156313539373b5-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "garden-lighting"
           }
         },
-        "1637156313539373b5-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "fairy-lights"
-          }
-        },
-        "1637156313539373b5-3": {
+        "1637156313539373b5-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "solar-outdoor-garden-lighting"
           }
         },
-        "1637156313539373b5-4": {
+        "1637156313539373b5-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "festoon-lighting"
           }
+        },
+        "1637156313539373b5-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "outdoor-lanterns"
+          }
+        },
+        "1637156313539373b5-4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "garden-fairy-lights"
+          }
+        },
+        "41707fd0-7564-4cf1-9bdb-bfc3058ed4df": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "solar-outdoor-stake-lights"
+          }
         }
       },
       "block_order": [
-        "1637156313539373b5-0",
         "1637156313539373b5-1",
+        "1637156313539373b5-0",
         "1637156313539373b5-2",
         "1637156313539373b5-3",
-        "1637156313539373b5-4"
+        "1637156313539373b5-4",
+        "41707fd0-7564-4cf1-9bdb-bfc3058ed4df"
       ],
       "settings": {
-        "title": "Our seasonal collections",
-        "subtitle": "Lights to bring a warm glow to your space or event all year",
+        "title": "THIS SEASON",
+        "subtitle": "Lights to bring a warm glow to your outdoor space or event",
         "color_scheme": "invert",
-        "columns": 5,
+        "columns": 6,
         "gutter": "lg",
         "text_align": "center",
         "image_size": "circle",
@@ -112,6 +147,52 @@
         "gutter": "md",
         "swipe_on_mobile": true,
         "section_button": ""
+      }
+    },
+    "25f11b5a-7e79-4ad9-9ca3-09bd8e887cac": {
+      "type": "icons",
+      "blocks": {
+        "e1adaedf-cc4f-4b72-ac96-1fdc0bfb302c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_36.png"
+          }
+        },
+        "6db48b17-caaa-4bc7-8df0-3717dff34dbd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_37.png"
+          }
+        },
+        "e9b3b61d-c827-4cd5-afa3-c4723261f0a0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_34.png"
+          }
+        },
+        "9f9b71e6-ebdb-44ff-aa99-04fb0f8a5e58": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_38.png"
+          }
+        },
+        "823c97c2-5abd-4ddb-b71a-3c5974d02f24": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_39.png"
+          }
+        }
+      },
+      "block_order": [
+        "e1adaedf-cc4f-4b72-ac96-1fdc0bfb302c",
+        "6db48b17-caaa-4bc7-8df0-3717dff34dbd",
+        "e9b3b61d-c827-4cd5-afa3-c4723261f0a0",
+        "9f9b71e6-ebdb-44ff-aa99-04fb0f8a5e58",
+        "823c97c2-5abd-4ddb-b71a-3c5974d02f24"
+      ],
+      "settings": {
+        "title": "Why Sparkle?"
       }
     },
     "1637156408ba495eb1": {
@@ -264,8 +345,8 @@
         "title": "As seen in",
         "subtitle": "",
         "color_scheme": "alt",
-        "columns": 4,
-        "logo_max_height": 120,
+        "columns": 6,
+        "logo_max_height": 70,
         "gutter": "sm",
         "enable_grayscale_hover": false,
         "section_button": "",
@@ -282,7 +363,7 @@
             "image": "shopify:\/\/shop_images\/Tan-cordless-table-lamps.jpg",
             "image_size": "large",
             "mobile_image": "shopify:\/\/shop_images\/green-cordless-table-lamps.jpg",
-            "mobile_image_size": "large",
+            "mobile_image_size": "original",
             "overlay": 50,
             "title": "Cordless Lights",
             "subtitle": "<p>Use them inside & out<\/p>",
@@ -304,7 +385,7 @@
             "span": "6",
             "image": "shopify:\/\/shop_images\/solar-garden-lanterns_577e32c0-bef8-4530-91bb-222d45dbfe28.png",
             "image_size": "large",
-            "mobile_image_size": "large",
+            "mobile_image_size": "original",
             "overlay": 0,
             "title": "Solar Garden Lights",
             "subtitle": "<p>Eco-friendly pretty lights<\/p>",
@@ -348,7 +429,7 @@
             "span": "4",
             "image": "shopify:\/\/shop_images\/boho-hoop-lights_a4257762-1e8d-47fc-b2f6-7e7eded9ac8b.jpg",
             "image_size": "large",
-            "mobile_image_size": "large",
+            "mobile_image_size": "original",
             "overlay": 50,
             "title": "Kid's Bedroom Lights",
             "subtitle": "<p>Bring a cosy vibe to their space<\/p>",
@@ -370,14 +451,14 @@
             "span": "4",
             "image": "shopify:\/\/shop_images\/solar-table-lanterns.jpg",
             "image_size": "large",
-            "mobile_image_size": "large",
-            "overlay": 0,
-            "title": "Party Lighting",
+            "mobile_image_size": "original",
+            "overlay": 45,
+            "title": "Outdoor Party Lighting",
             "subtitle": "<p>Bring atmosphere to your special event<\/p>",
             "color_scheme": "invert",
             "text_position": "center-center",
             "button": "Shop Now",
-            "button_link": "shopify:\/\/collections\/party-lighting",
+            "button_link": "shopify:\/\/collections\/outdoor-party-lighting",
             "button_style": "default",
             "button_show_arrow": true,
             "secondary_button": "",
@@ -460,43 +541,44 @@
         "section_button_link": ""
       }
     },
-    "1637156555fba26817": {
+    "2e20d04b-d034-46d4-baa5-6e0a2796bc55": {
       "type": "newsletter",
       "blocks": {
-        "16371565554fbd4dac-0": {
+        "template--16738064269552__2e20d04b-d034-46d4-baa5-6e0a2796bc55-16824882082f490323-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails"
+            "heading": "Want to save £5?"
           }
         },
-        "16371565554fbd4dac-1": {
+        "template--16738064269552__2e20d04b-d034-46d4-baa5-6e0a2796bc55-16824882082f490323-1": {
           "type": "text",
           "settings": {
-            "text": "Be the first to know about new collections and exclusive offers."
+            "text": "Enter your email to save £5 on your first order and be the first to know about new products & promotions."
           }
         },
-        "16371565554fbd4dac-2": {
+        "template--16738064269552__2e20d04b-d034-46d4-baa5-6e0a2796bc55-16824882082f490323-2": {
           "type": "newsletter_form",
           "settings": {
-            "button_show_arrow": true,
-            "button_custom_text": "",
+            "button_show_arrow": false,
+            "button_custom_text": "Get your code",
             "custom_placeholder_text": ""
           }
         }
       },
       "block_order": [
-        "16371565554fbd4dac-0",
-        "16371565554fbd4dac-1",
-        "16371565554fbd4dac-2"
+        "template--16738064269552__2e20d04b-d034-46d4-baa5-6e0a2796bc55-16824882082f490323-0",
+        "template--16738064269552__2e20d04b-d034-46d4-baa5-6e0a2796bc55-16824882082f490323-1",
+        "template--16738064269552__2e20d04b-d034-46d4-baa5-6e0a2796bc55-16824882082f490323-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/solar-table-lanterns.jpg",
-        "image_size": "large",
-        "image_mobile_size": "9x16",
-        "overlay": 20,
-        "text_size": "md",
-        "text_position": "bottom-left",
-        "color_scheme": "default"
+        "image": "shopify:\/\/shop_images\/fairy-lights.png",
+        "image_size": "small",
+        "mobile_image": "shopify:\/\/shop_images\/fairy-lights.png",
+        "image_mobile_size": "medium",
+        "overlay": 55,
+        "text_size": "sm",
+        "text_position": "center-center",
+        "color_scheme": "invert"
       }
     },
     "9da109cd-7d7d-479a-9f2b-3be4b967f114": {
@@ -529,61 +611,13 @@
             "logo_image": "shopify:\/\/shop_images\/rise-and-fall.webp",
             "logo_link": ""
           }
-        },
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-4": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_link": ""
-          }
-        },
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-5": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_link": ""
-          }
-        },
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-6": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_link": ""
-          }
-        },
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-7": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_link": ""
-          }
-        },
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-8": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_link": ""
-          }
-        },
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-9": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {
-            "logo_link": ""
-          }
         }
       },
       "block_order": [
         "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-2",
         "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-0",
         "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-1",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-3",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-4",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-5",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-6",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-7",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-8",
-        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-9"
+        "template--16735564169456__9da109cd-7d7d-479a-9f2b-3be4b967f114-16818392385a4a04cd-3"
       ],
       "settings": {
         "title": "As featured on",
@@ -617,14 +651,16 @@
     }
   },
   "order": [
+    "1b6d14df-3fee-480a-89dd-1dc13d689429",
     "1637156232245e9667",
     "16371563135a329e27",
     "1637156418dc83c366",
+    "25f11b5a-7e79-4ad9-9ca3-09bd8e887cac",
     "1637156408ba495eb1",
     "bf25af37-8a16-43fa-bd27-04bb31f0b36c",
     "16371564758217e773",
     "16371565156a529cad",
-    "1637156555fba26817",
+    "2e20d04b-d034-46d4-baa5-6e0a2796bc55",
     "9da109cd-7d7d-479a-9f2b-3be4b967f114",
     "163715652923809d9e"
   ]

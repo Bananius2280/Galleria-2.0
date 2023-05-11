@@ -25,12 +25,21 @@
             "heading": "Follow us",
             "show_titles": true
           }
+        },
+        "838e427b-f4da-4eca-bc26-5c8a7b252a21": {
+          "type": "text",
+          "settings": {
+            "heading": "Company details",
+            "subtext": "<p>Email us: <a href=\"mailto:info@sparkle.lighting\" title=\"mailto:info@sparkle.lighting\">info@sparkle.lighting<\/a><\/p><p>Call us: <a href=\"tel:+441494 414222\" title=\"tel:+441494 414222\">+44 1494 414222<\/a><\/p><p>Returns to:<\/p><p>Sparkle Lighting<\/p><p>Unit 23 Morses Lane<\/p><p>Brightlingsea CO7 0SQ<\/p><p>Company No: 12469917<\/p><p>VAT No: 370 6224 14<\/p>",
+            "show_social": false
+          }
         }
       },
       "block_order": [
         "bbd351c0-28cc-44d6-938a-d5614713eb13",
         "main-footer-0",
-        "0426c897-bcce-47b0-9dc3-ed0486166a15"
+        "0426c897-bcce-47b0-9dc3-ed0486166a15",
+        "838e427b-f4da-4eca-bc26-5c8a7b252a21"
       ],
       "settings": {
         "columns_size": "auto",

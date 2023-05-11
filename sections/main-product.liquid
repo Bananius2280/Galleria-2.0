@@ -294,6 +294,12 @@
           "label": "Attach to previous block",
           "info": "Reduces excess padding",
           "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "payment_checkbox",
+          "label": "Show payments",
+          "default": true
         }
       ]
     },
@@ -374,6 +380,16 @@
           "default": true
         }
       ]
+    },
+    {
+      "type": "collapsible_tab_desc",
+      "name": "Accordion description",
+      "settings": []
+    },
+    {
+      "type": "collapsible_tab_details",
+      "name": "Accordion details",
+      "settings": []
     },
     {
       "type": "collapsible_tab",
@@ -505,6 +521,27 @@
           "type": "url",
           "id": "link",
           "label": "Image link (optional)"
+        }
+      ]
+    },
+    {
+      "type": "icons",
+      "name": "Icons",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icons_image_one",
+          "label": "Icon"
+        },
+        {
+          "type": "image_picker",
+          "id": "icons_image_two",
+          "label": "Icon"
+        },
+        {
+          "type": "image_picker",
+          "id": "icons_image_three",
+          "label": "Icon"
         }
       ]
     }

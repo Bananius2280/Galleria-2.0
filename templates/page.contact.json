@@ -3,23 +3,31 @@
     "header": {
       "type": "main-page-header",
       "settings": {
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "settings": {
+        "text_size": "xl",
+        "height": "medium",
+        "overlay": 0,
+        "color_scheme": "invert"
       }
     },
     "form": {
       "type": "contact-form",
       "settings": {
-        "heading": ""
+        "heading": "",
+        "subheading": "",
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "text_size": "normal",
+        "content_width": "normal"
       }
     }
   },
   "order": [
     "header",
-    "main",
-    "form"
+    "form",
+    "main"
   ]
 }

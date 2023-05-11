@@ -217,7 +217,7 @@ dd {
 
 .\#section.\@color-scheme\:accent {
     color: rgba(var(--color-accent-c), 1);
-    background-color: rgba(var(--color-accent), 1);
+    background: var(--color-accent);
 }
 
 .\#section-header {

@@ -4,17 +4,18 @@
       "type": "main-page-header",
       "settings": {
         "text_size": "lg",
-        "bg_image": "shopify:\/\/shop_images\/SolarLantern_9.jpg",
-        "height": "medium",
+        "bg_image": "shopify:\/\/shop_images\/solar-garden-lanterns_723316c0-acb8-44ca-b06e-f174f542da80.jpg",
+        "height": "large",
         "overlay": 55,
         "color_scheme": "invert"
       }
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
-        "text_size": "normal",
-        "content_width": "normal"
+        "text_size": "sm",
+        "content_width": "narrow"
       }
     },
     "c7b14cd4-f041-443d-8390-af1f431725b1": {
@@ -69,7 +70,7 @@
         "template--16735564267760__c726491c-8259-41d7-a154-6a3c74581c0e-168174888298b4bfea-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sparkle was started in 2019 by Thalia, who loves lighting and the difference it can make to a space. Sparkle is a family business that was started from a kitchen table in Buckinghamshire combining Thalia’s sales & marketing background with her husband’s IT and digital skills.<\/p><p>We are so proud of how far Sparkle has come with over 20k followers on social media and a warehouse and distribution center in Brightingsea to offer the best customer experience possible..<\/p><p>Sparkle has also more recently become the face of the mastercard strive programme and the business has been featured in The Sunday Times, The Telegraph and The Observer.<\/p>"
+            "text": "<p>Sparkle was started in 2019 by Thalia, who loves lighting and the difference it can make to a space. Sparkle is a family business that was started from a kitchen table in Buckinghamshire combining Thalia’s sales & marketing background with her husband’s IT and digital skills.<\/p><p>We are so proud of how far Sparkle has come with over 20k followers on social media and a warehouse and distribution Center in Brightlingsea to offer the best customer experience possible.<\/p><p>Sparkle has also more recently become the face of the Mastercard Strive Programme and the business has been featured in The Sunday Times, The Telegraph and The Observer.<\/p>"
           }
         },
         "template--16735564267760__c726491c-8259-41d7-a154-6a3c74581c0e-168174888298b4bfea-2": {
@@ -108,7 +109,7 @@
         "template--16735564267760__0711bda6-68a6-45f6-a3af-e6ea5d82c2b4-168174888298b4bfea-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Why Sparkle?"
           }
         },
         "template--16735564267760__0711bda6-68a6-45f6-a3af-e6ea5d82c2b4-168174888298b4bfea-1": {
@@ -145,6 +146,103 @@
         "text_size": "md",
         "text_position": "center-center"
       }
+    },
+    "924cf4b3-a397-4263-8964-6e8a239ade64": {
+      "type": "logo-list",
+      "blocks": {
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-0": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/the-sunday-times-logo_1.png",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-1": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/the-telegraph-logo.png",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-2": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/The-Independent-Logo_12a12bf4-505e-44ac-9275-f078e5687202.png",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/metro-200.png",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-4": {
+          "type": "logo",
+          "settings": {
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-5": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/homes-and-gardens-logo_fb136242-d02c-4a86-a949-98988ad2d66c.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-6": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/ideal-home.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-7": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/good-homes-200.webp",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-8": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/real-homes.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-9": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/english-home-200.webp",
+            "logo_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-0",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-1",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-2",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-3",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-4",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-5",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-6",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-7",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-8",
+        "template--16738064400624__924cf4b3-a397-4263-8964-6e8a239ade64-1683707290583c50d4-9"
+      ],
+      "settings": {
+        "title": "Sparkle has been featured IN",
+        "subtitle": "",
+        "color_scheme": "invert",
+        "columns": 5,
+        "logo_max_height": 120,
+        "gutter": "md",
+        "enable_grayscale_hover": true,
+        "section_button": "",
+        "section_button_link": ""
+      }
     }
   },
   "order": [
@@ -152,6 +250,7 @@
     "main",
     "c7b14cd4-f041-443d-8390-af1f431725b1",
     "c726491c-8259-41d7-a154-6a3c74581c0e",
-    "0711bda6-68a6-45f6-a3af-e6ea5d82c2b4"
+    "0711bda6-68a6-45f6-a3af-e6ea5d82c2b4",
+    "924cf4b3-a397-4263-8964-6e8a239ade64"
   ]
 }

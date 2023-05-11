@@ -2,7 +2,7 @@
     display: block;
     position: relative;
     z-index: 5;
-    background-color: var(--announcement-bar-color-background);
+    background: var(--announcement-bar-color-background);
     color: var(--announcement-bar-color-text);
     padding: 0.7rem 3rem;
     text-align: center;

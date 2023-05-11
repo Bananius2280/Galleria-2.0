@@ -3,10 +3,10 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "text_size": "xl",
+        "text_size": "lg",
         "show_collection_image": true,
-        "height": "medium",
-        "overlay": 20,
+        "height": "large",
+        "overlay": 90,
         "color_scheme": "accent"
       }
     },
@@ -27,7 +27,6 @@
         },
         "template--16735564071152__60a4a1af-aabc-4817-9488-d62ff8e57940-1681884497fb97ca18-2": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "gazebo-lighting"
           }
@@ -67,7 +66,7 @@
         "dc682780-de29-468f-b7b4-dd7fb3489971"
       ],
       "settings": {
-        "title": "Outdoor Collections",
+        "title": "Shop by Category",
         "subtitle": "",
         "color_scheme": "invert",
         "columns": 6,
@@ -84,9 +83,107 @@
       "type": "main-collection-description",
       "settings": {
         "text_size": "normal",
-        "text_align": "default",
+        "text_align": "center",
         "content_width": "normal",
         "color_scheme": "default"
+      }
+    },
+    "28918d6c-4b56-47cb-842f-15a3f75092e9": {
+      "type": "logo-list",
+      "blocks": {
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-0": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/good-homes-200.webp",
+            "logo_link": ""
+          }
+        },
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-4": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/Dream-Garden-logo_website.png",
+            "logo_link": ""
+          }
+        },
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-1": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/homes-and-gardens-logo_fb136242-d02c-4a86-a949-98988ad2d66c.svg",
+            "logo_link": ""
+          }
+        },
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/Gardeningetc_f2a0a934-6259-491d-b9d5-39548ee0c804.jpg",
+            "logo_link": ""
+          }
+        },
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-2": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/Modern_gardens.png",
+            "logo_link": ""
+          }
+        },
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-5": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/wedding-and-honeymoon-logo-500x500-blur-q80.png",
+            "logo_link": ""
+          }
+        },
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-7": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/living-magazine-200.webp",
+            "logo_link": ""
+          }
+        },
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-6": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/homebuilding-_-renovating.png",
+            "logo_link": ""
+          }
+        },
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-8": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo_link": ""
+          }
+        },
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-9": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-0",
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-4",
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-1",
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-3",
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-2",
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-5",
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-7",
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-6",
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-8",
+        "template--16738063974640__28918d6c-4b56-47cb-842f-15a3f75092e9-1683728778eaa85146-9"
+      ],
+      "settings": {
+        "title": "As Featured in",
+        "subtitle": "",
+        "color_scheme": "default",
+        "columns": 4,
+        "logo_max_height": 70,
+        "gutter": "md",
+        "enable_grayscale_hover": false,
+        "section_button": "",
+        "section_button_link": ""
       }
     },
     "product-grid": {
@@ -117,9 +214,37 @@
         "title": "FAQ",
         "subtitle": "",
         "width": "narrow",
-        "color_scheme": "default",
+        "color_scheme": "alt",
         "highlight_active": true,
         "text_size": "md"
+      }
+    },
+    "da47e930-768d-4033-9aed-6cf8a77bdb5c": {
+      "type": "main-collection-extra-description",
+      "settings": {
+        "text_size": "normal",
+        "text_align": "default",
+        "content_width": "normal",
+        "color_scheme": "default"
+      }
+    },
+    "9b7f1b58-d285-4c63-925b-59d24707c47e": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "title": "Featured blog",
+        "subtitle": "",
+        "blog": "",
+        "color_scheme": "default",
+        "post_limit": 3,
+        "gutter": "md",
+        "text_align": "center",
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": false,
+        "image_ratio": "landscape",
+        "hover_zoom": true,
+        "section_button": "Read more"
       }
     }
   },
@@ -127,7 +252,10 @@
     "banner",
     "60a4a1af-aabc-4817-9488-d62ff8e57940",
     "description",
+    "28918d6c-4b56-47cb-842f-15a3f75092e9",
     "product-grid",
-    "5618f724-c425-4ece-92ce-7997790ad3be"
+    "5618f724-c425-4ece-92ce-7997790ad3be",
+    "da47e930-768d-4033-9aed-6cf8a77bdb5c",
+    "9b7f1b58-d285-4c63-925b-59d24707c47e"
   ]
 }
