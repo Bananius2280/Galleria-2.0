@@ -1,3 +1,5 @@
+{%- if template.name == 'collection' -%}
+{%- if collection.metafields.custom.logo_list != blank -%}
 <link rel="stylesheet" href="{{ 'logo-card.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'logo-card.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -8,17 +10,60 @@
 
 {%- capture Content -%}
     <div class="#grid @gap:{{ section.settings.gutter }} %mobile:overlap @container @columns:{{ section.settings.columns }}">
-        {%- for block in section.blocks -%}
-            <div class="#column reveal-animate" style="--reveal-index: {{ forloop.index }}" {{ block.shopify_attributes }}>
+          {%- assign logo-list_collections = collection.metafields.custom.logo_list.value -%}
+          {%- for logo-list_collection in logo-list_collections -%}
+            <div class="#column reveal-animate" style="--reveal-index: {{ forloop.index }}">
                 {% render 'logo-card',
-                    image: block.settings.logo_image,
-                    url: block.settings.logo_link,
+                    image: logo-list_collection,
                     bordered: card_bordered,
                     image_height: section.settings.logo_max_height,
                     grayscale_hover: section.settings.enable_grayscale_hover
                 %}
             </div>
-        {%- endfor -%}
+          {%- endfor -%}
+    </div>
+{%- endcapture -%}
+
+{% if section.settings.section_button != blank and section.settings.section_button_link != blank %}
+  {%- assign section_button = section.settings.section_button -%}
+{% endif %}
+
+
+{% render 'section-body',
+    content: Content,
+    title: section.settings.title,
+    subtitle: section.settings.subtitle,
+    color_scheme: section.settings.color_scheme,
+    container: false,
+    spaced: true,
+    button: section_button,
+    button_link: section.settings.section_button_link
+%}
+  
+{%- endif -%}
+{% else %}
+
+<link rel="stylesheet" href="{{ 'logo-card.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'logo-card.css' | asset_url | stylesheet_tag }}</noscript>
+
+
+{% if section.settings.color_scheme == 'default' %}
+  {%- assign card_bordered = true -%}
+{% endif %}
+
+{%- capture Content -%}
+    <div class="#grid @gap:{{ section.settings.gutter }} %mobile:overlap @container @columns:{{ section.settings.columns }}">
+          {%- for block in section.blocks -%}
+              <div class="#column reveal-animate" style="--reveal-index: {{ forloop.index }}" {{ block.shopify_attributes }}>
+                  {% render 'logo-card',
+                      image: block.settings.logo_image,
+                      url: block.settings.logo_link,
+                      bordered: card_bordered,
+                      image_height: section.settings.logo_max_height,
+                      grayscale_hover: section.settings.enable_grayscale_hover
+                  %}
+              </div>
+          {%- endfor -%}  
     </div>
 {%- endcapture -%}
 
@@ -38,6 +83,8 @@
     button_link: section.settings.section_button_link
 %}
 
+  {%- endif -%}
+  
 {% schema %}
 {
     "name": "Logo list",

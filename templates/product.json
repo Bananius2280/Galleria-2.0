@@ -64,7 +64,8 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
-            "prev_attach": false
+            "prev_attach": false,
+            "payment_checkbox": true
           }
         },
         "c324df6c-b8f4-4a60-8f5f-5e309ef368ba": {

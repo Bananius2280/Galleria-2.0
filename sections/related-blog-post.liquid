@@ -1,0 +1,189 @@
+{%- if collection.metafields.custom.related_blog_post != blank -%}
+<link rel="stylesheet" href="{{ 'article-card.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'article-card.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- capture Content -%}
+  <div class="#grid @gap:{{ section.settings.gutter }} @container @columns:1">
+
+ {% assign blog_handles = "articles,fairy-lights,garden-lighting,press,press-grid" | split: "," %}
+  {%- for handle in blog_handles -%}
+    {%- for article in blogs[handle].articles -%}
+       {%- if article.title == collection.metafields.custom.related_blog_post -%}
+         {% assign button_link = article.url %}
+         <div class="#column reveal-animate related-blog__item" style="--reveal-index: {{ forloop.index }}">
+          {% render 'article-card',
+            article: article,
+            show_date: section.settings.show_date,
+            show_author: section.settings.show_author,
+            columns: 1,
+            image_size: section.settings.image_ratio,
+            show_excerpt: section.settings.show_excerpt,
+            media_hover_zoom: section.settings.hover_zoom,
+            align: section.settings.text_align
+          %}
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+  
+  </div>
+{%- endcapture -%}
+
+{% if section.settings.section_button != blank %}
+  {%- assign section_button = section.settings.section_button -%}
+{% endif %}
+
+{% render 'section-body',
+  content: Content,
+  spaced: true,
+  container: false,
+  title: section.settings.title,
+  subtitle: section.settings.subtitle,
+  button: section_button,
+  button_link: button_link,
+  color_scheme: section.settings.color_scheme
+%}
+{% endif %}
+
+{% schema %}
+{
+  "name":"Related blog post",
+  "tag":"section",
+  "settings":[
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Featured blog",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subheading"
+      },
+      {
+        "type": "select",
+        "id": "color_scheme",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "alt",
+            "label": "Alternate"
+          },
+          {
+            "value": "accent",
+            "label": "Accent"
+          },
+          {
+            "value": "invert",
+            "label": "Inverted"
+          }
+        ],
+        "default": "default",
+        "label": "Color scheme"
+      },
+      {
+        "type": "select",
+        "id": "gutter",
+        "label": "Space between",
+        "options": [
+        {
+           "value": "sm",
+           "label": "Small"
+        },
+        {
+           "value": "md",
+           "label": "Medium"
+        },
+        {
+           "value": "lg",
+           "label": "Large"
+        }
+        ],
+        "default": "md"
+     },
+     {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "default": true,
+      "label": "t:sections.featured-blog.settings.show_date.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "default": false,
+      "label": "t:sections.featured-blog.settings.show_author.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_excerpt",
+      "default": false,
+      "label": "Show excerpt"
+    },
+     {
+        "type":"select",
+        "id":"image_ratio",
+        "options":[
+           {
+              "value":"landscape",
+              "label":"Landscape"
+           },
+           {
+              "value":"portrait",
+              "label":"t:sections.collection-list.settings.image_ratio.options__2.label"
+           },
+           {
+              "value":"square",
+              "label":"t:sections.collection-list.settings.image_ratio.options__3.label"
+           },
+           {
+             "value": "original",
+             "label": "Original image size"
+           }
+        ],
+        "default":"landscape",
+        "label":"Image style"
+     },
+     {
+      "type": "checkbox",
+      "id": "hover_zoom",
+      "default": true,
+      "label": "Enable image zoom on hover"
+    },
+     {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "section_button",
+      "label": "Text",
+      "default": "Read more"
+    }
+  ]
+}
+
+{% endschema %}
